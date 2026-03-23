@@ -42,6 +42,20 @@
         "icon": "🎉",
         "priority": 3
       }
+    },
+    {
+      "section_id": "sec_003",
+      "title": "Pure Non-Veg",
+      "type": "dynamic",
+      "layout": "horizontal_scroll",
+      "filters": {
+        "sort_by": "non-veg",
+        "limit": 5
+      },
+      "meta": {
+        "icon": "🍗",
+        "priority": 4
+      }
     }
   ]
 }
