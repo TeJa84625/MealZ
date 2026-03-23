@@ -1,1545 +1,1545 @@
 {
-  "version": "1.3",
-  "recipes": [
-    {
-      "recipe_id": "AFR001",
-      "name": "French Fries",
-      "level": "Medium",
-      "diet": "non-veg",
-      "tags": [
-        "protein",
-        "starter"
-      ],
-      "servings": 3,
-      "timing": {
-        "prep_time_minutes": 11,
-        "preheat_time_minutes": 5,
-        "cook_time_minutes": 11,
-        "total_time_minutes": 26
-      },
-      "temperature": {
-        "preheat_celsius": 180,
-        "cook_celsius": 181
-      },
-      "air_fryer": {
-        "model": "Instant Vortex",
-        "power_watts": 1500
-      },
-      "ingredients": [
+    "version": "1.4",
+    "recipes": [
         {
-          "name": "Main ingredient",
-          "quantity": 205,
-          "unit": "g"
+            "recipe_id": "AFR001",
+            "name": "French Fries",
+            "level": "Medium",
+            "diet": "veg",
+            "tags": [
+                "protein",
+                "starter"
+            ],
+            "servings": 3,
+            "timing": {
+                "prep_time_minutes": 11,
+                "preheat_time_minutes": 5,
+                "cook_time_minutes": 11,
+                "total_time_minutes": 26
+            },
+            "temperature": {
+                "preheat_celsius": 180,
+                "cook_celsius": 181
+            },
+            "air_fryer": {
+                "model": "Instant Vortex",
+                "power_watts": 1500
+            },
+            "ingredients": [
+                {
+                    "name": "Main ingredient",
+                    "quantity": 205,
+                    "unit": "g"
+                },
+                {
+                    "name": "Oil",
+                    "quantity": 1,
+                    "unit": "tbsp"
+                },
+                {
+                    "name": "Salt",
+                    "quantity": 0.5,
+                    "unit": "tsp"
+                }
+            ],
+            "steps": [
+                {
+                    "step_number": 1,
+                    "description": "Prepare ingredients."
+                },
+                {
+                    "step_number": 2,
+                    "description": "Preheat air fryer."
+                },
+                {
+                    "step_number": 3,
+                    "description": "Cook until done."
+                }
+            ],
+            "media": {
+                "main_image_url": "https://media.istockphoto.com/id/1443993866/photo/french-fries-with-ketchup-and-cocktail-sauce.jpg?s=612x612&w=0&k=20&c=URpOsc5tds8tOfxK4ZO3Tkx6mwLho7fL_pTBSNdziBU="
+            },
+            "nutrition": {
+                "calories": 210,
+                "protein_g": 6,
+                "carbs_g": 21,
+                "fat_g": 9
+            },
+            "tips": [
+                "Shake basket halfway."
+            ],
+            "notes": "Adjust seasoning as needed.",
+            "author": {
+                "name": "Admin"
+            },
+            "rating": {
+                "average": 4.1,
+                "reviews_count": 55
+            },
+            "created_at": "2026-03-23T03:13:36Z"
         },
         {
-          "name": "Oil",
-          "quantity": 1,
-          "unit": "tbsp"
+            "recipe_id": "AFR002",
+            "name": "Chicken Wings",
+            "level": "Medium",
+            "diet": "non-veg",
+            "tags": [
+                "snack",
+                "quick"
+            ],
+            "servings": 4,
+            "timing": {
+                "prep_time_minutes": 12,
+                "preheat_time_minutes": 5,
+                "cook_time_minutes": 12,
+                "total_time_minutes": 27
+            },
+            "temperature": {
+                "preheat_celsius": 180,
+                "cook_celsius": 182
+            },
+            "air_fryer": {
+                "model": "Philips HD9252",
+                "power_watts": 1400
+            },
+            "ingredients": [
+                {
+                    "name": "Main ingredient",
+                    "quantity": 210,
+                    "unit": "g"
+                },
+                {
+                    "name": "Oil",
+                    "quantity": 1,
+                    "unit": "tbsp"
+                },
+                {
+                    "name": "Salt",
+                    "quantity": 0.5,
+                    "unit": "tsp"
+                }
+            ],
+            "steps": [
+                {
+                    "step_number": 1,
+                    "description": "Prepare ingredients."
+                },
+                {
+                    "step_number": 2,
+                    "description": "Preheat air fryer."
+                },
+                {
+                    "step_number": 3,
+                    "description": "Cook until done."
+                }
+            ],
+            "media": {
+                "main_image_url": "https://media.istockphoto.com/id/835903320/photo/baked-chicken-wings-with-sesame-seeds-and-sweet-chili-sauce-on-white-wooden-board.jpg?s=612x612&w=0&k=20&c=SH8ZCkEKuWD_wxulpntIJ0uD4yRnUf9UXovQwSwrmmA="
+            },
+            "nutrition": {
+                "calories": 220,
+                "protein_g": 7,
+                "carbs_g": 22,
+                "fat_g": 10
+            },
+            "tips": [
+                "Shake basket halfway."
+            ],
+            "notes": "Adjust seasoning as needed.",
+            "author": {
+                "name": "Admin"
+            },
+            "rating": {
+                "average": 4.2,
+                "reviews_count": 60
+            },
+            "created_at": "2026-03-23T03:13:36Z"
         },
         {
-          "name": "Salt",
-          "quantity": 0.5,
-          "unit": "tsp"
+            "recipe_id": "AFR003",
+            "name": "Paneer Tikka",
+            "level": "Easy",
+            "diet": "veg",
+            "tags": [
+                "protein",
+                "starter"
+            ],
+            "servings": 2,
+            "timing": {
+                "prep_time_minutes": 13,
+                "preheat_time_minutes": 5,
+                "cook_time_minutes": 13,
+                "total_time_minutes": 28
+            },
+            "temperature": {
+                "preheat_celsius": 180,
+                "cook_celsius": 183
+            },
+            "air_fryer": {
+                "model": "Instant Vortex",
+                "power_watts": 1500
+            },
+            "ingredients": [
+                {
+                    "name": "Main ingredient",
+                    "quantity": 215,
+                    "unit": "g"
+                },
+                {
+                    "name": "Oil",
+                    "quantity": 1,
+                    "unit": "tbsp"
+                },
+                {
+                    "name": "Salt",
+                    "quantity": 0.5,
+                    "unit": "tsp"
+                }
+            ],
+            "steps": [
+                {
+                    "step_number": 1,
+                    "description": "Prepare ingredients."
+                },
+                {
+                    "step_number": 2,
+                    "description": "Preheat air fryer."
+                },
+                {
+                    "step_number": 3,
+                    "description": "Cook until done."
+                }
+            ],
+            "media": {
+                "main_image_url": "https://media.istockphoto.com/id/1186759790/photo/paneer-tikka-at-skewers-in-black-bowl-at-dark-slate-background-paneer-tikka-is-an-indian.jpg?s=612x612&w=0&k=20&c=cITToqM1KEnrixXjoLhEciqP24SxdKtW3QXykq-W5OE="
+            },
+            "nutrition": {
+                "calories": 230,
+                "protein_g": 8,
+                "carbs_g": 23,
+                "fat_g": 11
+            },
+            "tips": [
+                "Shake basket halfway."
+            ],
+            "notes": "Adjust seasoning as needed.",
+            "author": {
+                "name": "Admin"
+            },
+            "rating": {
+                "average": 4.3,
+                "reviews_count": 65
+            },
+            "created_at": "2026-03-23T03:13:36Z"
+        },
+        {
+            "recipe_id": "AFR004",
+            "name": "Samosa",
+            "level": "Medium",
+            "diet": "veg",
+            "tags": [
+                "snack",
+                "quick"
+            ],
+            "servings": 3,
+            "timing": {
+                "prep_time_minutes": 14,
+                "preheat_time_minutes": 5,
+                "cook_time_minutes": 14,
+                "total_time_minutes": 29
+            },
+            "temperature": {
+                "preheat_celsius": 180,
+                "cook_celsius": 184
+            },
+            "air_fryer": {
+                "model": "Philips HD9252",
+                "power_watts": 1400
+            },
+            "ingredients": [
+                {
+                    "name": "Main ingredient",
+                    "quantity": 220,
+                    "unit": "g"
+                },
+                {
+                    "name": "Oil",
+                    "quantity": 1,
+                    "unit": "tbsp"
+                },
+                {
+                    "name": "Salt",
+                    "quantity": 0.5,
+                    "unit": "tsp"
+                }
+            ],
+            "steps": [
+                {
+                    "step_number": 1,
+                    "description": "Prepare ingredients."
+                },
+                {
+                    "step_number": 2,
+                    "description": "Preheat air fryer."
+                },
+                {
+                    "step_number": 3,
+                    "description": "Cook until done."
+                }
+            ],
+            "media": {
+                "main_image_url": "https://media.istockphoto.com/id/2148933061/photo/selective-focus-samosa-spiced-potato-filled-pastry-crispy-savory-popular-indian-snack-with.jpg?s=612x612&w=0&k=20&c=HW1y3HYPa7r-YwB6wn3gktZP-1Fzw9bYKsR8D6yqQOs="
+            },
+            "nutrition": {
+                "calories": 240,
+                "protein_g": 9,
+                "carbs_g": 24,
+                "fat_g": 12
+            },
+            "tips": [
+                "Shake basket halfway."
+            ],
+            "notes": "Adjust seasoning as needed.",
+            "author": {
+                "name": "Admin"
+            },
+            "rating": {
+                "average": 4.4,
+                "reviews_count": 70
+            },
+            "created_at": "2026-03-23T03:13:36Z"
+        },
+        {
+            "recipe_id": "AFR005",
+            "name": "Chicken Nuggets",
+            "level": "Medium",
+            "diet": "non-veg",
+            "tags": [
+                "protein",
+                "starter"
+            ],
+            "servings": 4,
+            "timing": {
+                "prep_time_minutes": 15,
+                "preheat_time_minutes": 5,
+                "cook_time_minutes": 15,
+                "total_time_minutes": 30
+            },
+            "temperature": {
+                "preheat_celsius": 180,
+                "cook_celsius": 185
+            },
+            "air_fryer": {
+                "model": "Instant Vortex",
+                "power_watts": 1500
+            },
+            "ingredients": [
+                {
+                    "name": "Main ingredient",
+                    "quantity": 225,
+                    "unit": "g"
+                },
+                {
+                    "name": "Oil",
+                    "quantity": 1,
+                    "unit": "tbsp"
+                },
+                {
+                    "name": "Salt",
+                    "quantity": 0.5,
+                    "unit": "tsp"
+                }
+            ],
+            "steps": [
+                {
+                    "step_number": 1,
+                    "description": "Prepare ingredients."
+                },
+                {
+                    "step_number": 2,
+                    "description": "Preheat air fryer."
+                },
+                {
+                    "step_number": 3,
+                    "description": "Cook until done."
+                }
+            ],
+            "media": {
+                "main_image_url": "https://media.istockphoto.com/id/470177926/photo/homemade-crispy-popcorn-chicken.jpg?s=612x612&w=0&k=20&c=CXUwd4MjivllVUdvqIRnG5y77w8SKgkuzNyEsnd10WA="
+            },
+            "nutrition": {
+                "calories": 250,
+                "protein_g": 10,
+                "carbs_g": 25,
+                "fat_g": 13
+            },
+            "tips": [
+                "Shake basket halfway."
+            ],
+            "notes": "Adjust seasoning as needed.",
+            "author": {
+                "name": "Admin"
+            },
+            "rating": {
+                "average": 4.0,
+                "reviews_count": 75
+            },
+            "created_at": "2026-03-23T03:13:36Z"
+        },
+        {
+            "recipe_id": "AFR006",
+            "name": "Roasted Vegetables",
+            "level": "Easy",
+            "diet": "veg",
+            "tags": [
+                "snack",
+                "quick"
+            ],
+            "servings": 2,
+            "timing": {
+                "prep_time_minutes": 16,
+                "preheat_time_minutes": 5,
+                "cook_time_minutes": 16,
+                "total_time_minutes": 31
+            },
+            "temperature": {
+                "preheat_celsius": 180,
+                "cook_celsius": 186
+            },
+            "air_fryer": {
+                "model": "Philips HD9252",
+                "power_watts": 1400
+            },
+            "ingredients": [
+                {
+                    "name": "Main ingredient",
+                    "quantity": 230,
+                    "unit": "g"
+                },
+                {
+                    "name": "Oil",
+                    "quantity": 1,
+                    "unit": "tbsp"
+                },
+                {
+                    "name": "Salt",
+                    "quantity": 0.5,
+                    "unit": "tsp"
+                }
+            ],
+            "steps": [
+                {
+                    "step_number": 1,
+                    "description": "Prepare ingredients."
+                },
+                {
+                    "step_number": 2,
+                    "description": "Preheat air fryer."
+                },
+                {
+                    "step_number": 3,
+                    "description": "Cook until done."
+                }
+            ],
+            "media": {
+                "main_image_url": "https://media.istockphoto.com/id/516621399/photo/grilled-vegetables-on-cutting-board.jpg?s=612x612&w=0&k=20&c=F9AWiLBdqiaahCP_6IzGIkvFhhLddmBh_Hhb9RLW0KE="
+            },
+            "nutrition": {
+                "calories": 260,
+                "protein_g": 11,
+                "carbs_g": 26,
+                "fat_g": 14
+            },
+            "tips": [
+                "Shake basket halfway."
+            ],
+            "notes": "Adjust seasoning as needed.",
+            "author": {
+                "name": "Admin"
+            },
+            "rating": {
+                "average": 4.1,
+                "reviews_count": 80
+            },
+            "created_at": "2026-03-23T03:13:36Z"
+        },
+        {
+            "recipe_id": "AFR007",
+            "name": "Fish Fry",
+            "level": "Medium",
+            "diet": "non-veg",
+            "tags": [
+                "protein",
+                "starter"
+            ],
+            "servings": 3,
+            "timing": {
+                "prep_time_minutes": 17,
+                "preheat_time_minutes": 5,
+                "cook_time_minutes": 17,
+                "total_time_minutes": 32
+            },
+            "temperature": {
+                "preheat_celsius": 180,
+                "cook_celsius": 187
+            },
+            "air_fryer": {
+                "model": "Instant Vortex",
+                "power_watts": 1500
+            },
+            "ingredients": [
+                {
+                    "name": "Main ingredient",
+                    "quantity": 235,
+                    "unit": "g"
+                },
+                {
+                    "name": "Oil",
+                    "quantity": 1,
+                    "unit": "tbsp"
+                },
+                {
+                    "name": "Salt",
+                    "quantity": 0.5,
+                    "unit": "tsp"
+                }
+            ],
+            "steps": [
+                {
+                    "step_number": 1,
+                    "description": "Prepare ingredients."
+                },
+                {
+                    "step_number": 2,
+                    "description": "Preheat air fryer."
+                },
+                {
+                    "step_number": 3,
+                    "description": "Cook until done."
+                }
+            ],
+            "media": {
+                "main_image_url": "https://media.istockphoto.com/id/1309353866/photo/seer-fish-fry.jpg?s=612x612&w=0&k=20&c=18mD5mCErONAEQYmOz970ZfM1zE_CfMD96VPaHmNSfA="
+            },
+            "nutrition": {
+                "calories": 270,
+                "protein_g": 12,
+                "carbs_g": 27,
+                "fat_g": 15
+            },
+            "tips": [
+                "Shake basket halfway."
+            ],
+            "notes": "Adjust seasoning as needed.",
+            "author": {
+                "name": "Admin"
+            },
+            "rating": {
+                "average": 4.2,
+                "reviews_count": 85
+            },
+            "created_at": "2026-03-23T03:13:36Z"
+        },
+        {
+            "recipe_id": "AFR008",
+            "name": "Spring Rolls",
+            "level": "Medium",
+            "diet": "veg",
+            "tags": [
+                "snack",
+                "quick"
+            ],
+            "servings": 4,
+            "timing": {
+                "prep_time_minutes": 18,
+                "preheat_time_minutes": 5,
+                "cook_time_minutes": 18,
+                "total_time_minutes": 33
+            },
+            "temperature": {
+                "preheat_celsius": 180,
+                "cook_celsius": 188
+            },
+            "air_fryer": {
+                "model": "Philips HD9252",
+                "power_watts": 1400
+            },
+            "ingredients": [
+                {
+                    "name": "Main ingredient",
+                    "quantity": 240,
+                    "unit": "g"
+                },
+                {
+                    "name": "Oil",
+                    "quantity": 1,
+                    "unit": "tbsp"
+                },
+                {
+                    "name": "Salt",
+                    "quantity": 0.5,
+                    "unit": "tsp"
+                }
+            ],
+            "steps": [
+                {
+                    "step_number": 1,
+                    "description": "Prepare ingredients."
+                },
+                {
+                    "step_number": 2,
+                    "description": "Preheat air fryer."
+                },
+                {
+                    "step_number": 3,
+                    "description": "Cook until done."
+                }
+            ],
+            "media": {
+                "main_image_url": "https://media.istockphoto.com/id/1371154829/photo/fried-spring-roll-with-chicken-vietnamese-food-top-view.jpg?s=612x612&w=0&k=20&c=rE_c3kY44eLRzwMCRhdC45XYl1yLy7ZOdyfVWwacKJ8="
+            },
+            "nutrition": {
+                "calories": 280,
+                "protein_g": 13,
+                "carbs_g": 28,
+                "fat_g": 16
+            },
+            "tips": [
+                "Shake basket halfway."
+            ],
+            "notes": "Adjust seasoning as needed.",
+            "author": {
+                "name": "Admin"
+            },
+            "rating": {
+                "average": 4.3,
+                "reviews_count": 90
+            },
+            "created_at": "2026-03-23T03:13:36Z"
+        },
+        {
+            "recipe_id": "AFR009",
+            "name": "Pizza",
+            "level": "Easy",
+            "diet": "veg",
+            "tags": [
+                "protein",
+                "starter"
+            ],
+            "servings": 2,
+            "timing": {
+                "prep_time_minutes": 19,
+                "preheat_time_minutes": 5,
+                "cook_time_minutes": 19,
+                "total_time_minutes": 34
+            },
+            "temperature": {
+                "preheat_celsius": 180,
+                "cook_celsius": 189
+            },
+            "air_fryer": {
+                "model": "Instant Vortex",
+                "power_watts": 1500
+            },
+            "ingredients": [
+                {
+                    "name": "Main ingredient",
+                    "quantity": 245,
+                    "unit": "g"
+                },
+                {
+                    "name": "Oil",
+                    "quantity": 1,
+                    "unit": "tbsp"
+                },
+                {
+                    "name": "Salt",
+                    "quantity": 0.5,
+                    "unit": "tsp"
+                }
+            ],
+            "steps": [
+                {
+                    "step_number": 1,
+                    "description": "Prepare ingredients."
+                },
+                {
+                    "step_number": 2,
+                    "description": "Preheat air fryer."
+                },
+                {
+                    "step_number": 3,
+                    "description": "Cook until done."
+                }
+            ],
+            "media": {
+                "main_image_url": "https://media.istockphoto.com/id/2023102269/photo/pizza-topped-with-fresh-basil-tomato-and-cheese-on-top-of-wooden-platter.jpg?s=612x612&w=0&k=20&c=3oxyQVNkMGuKF57X4yUUoDNTYFc04TM1jN0RyeJ5qPE="
+            },
+            "nutrition": {
+                "calories": 290,
+                "protein_g": 14,
+                "carbs_g": 29,
+                "fat_g": 17
+            },
+            "tips": [
+                "Shake basket halfway."
+            ],
+            "notes": "Adjust seasoning as needed.",
+            "author": {
+                "name": "Admin"
+            },
+            "rating": {
+                "average": 4.4,
+                "reviews_count": 95
+            },
+            "created_at": "2026-03-23T03:13:36Z"
+        },
+        {
+            "recipe_id": "AFR010",
+            "name": "Chocolate Cake",
+            "level": "Medium",
+            "diet": "veg",
+            "tags": [
+                "snack",
+                "quick"
+            ],
+            "servings": 3,
+            "timing": {
+                "prep_time_minutes": 20,
+                "preheat_time_minutes": 5,
+                "cook_time_minutes": 10,
+                "total_time_minutes": 35
+            },
+            "temperature": {
+                "preheat_celsius": 180,
+                "cook_celsius": 190
+            },
+            "air_fryer": {
+                "model": "Philips HD9252",
+                "power_watts": 1400
+            },
+            "ingredients": [
+                {
+                    "name": "Main ingredient",
+                    "quantity": 250,
+                    "unit": "g"
+                },
+                {
+                    "name": "Oil",
+                    "quantity": 1,
+                    "unit": "tbsp"
+                },
+                {
+                    "name": "Salt",
+                    "quantity": 0.5,
+                    "unit": "tsp"
+                }
+            ],
+            "steps": [
+                {
+                    "step_number": 1,
+                    "description": "Prepare ingredients."
+                },
+                {
+                    "step_number": 2,
+                    "description": "Preheat air fryer."
+                },
+                {
+                    "step_number": 3,
+                    "description": "Cook until done."
+                }
+            ],
+            "media": {
+                "main_image_url": "https://media.istockphoto.com/id/1370520449/photo/slice-of-chocolate-cake-with-glaze.jpg?s=612x612&w=0&k=20&c=KK-h7w4l0FNA0YMWvkr1X8UrAAB77z0f5tTByBYgReM="
+            },
+            "nutrition": {
+                "calories": 300,
+                "protein_g": 15,
+                "carbs_g": 30,
+                "fat_g": 18
+            },
+            "tips": [
+                "Shake basket halfway."
+            ],
+            "notes": "Adjust seasoning as needed.",
+            "author": {
+                "name": "Admin"
+            },
+            "rating": {
+                "average": 4.0,
+                "reviews_count": 100
+            },
+            "created_at": "2026-03-23T03:13:36Z"
+        },
+        {
+            "recipe_id": "AFR011",
+            "name": "Garlic Bread",
+            "level": "Medium",
+            "diet": "veg",
+            "tags": [
+                "protein",
+                "starter"
+            ],
+            "servings": 4,
+            "timing": {
+                "prep_time_minutes": 21,
+                "preheat_time_minutes": 5,
+                "cook_time_minutes": 11,
+                "total_time_minutes": 36
+            },
+            "temperature": {
+                "preheat_celsius": 180,
+                "cook_celsius": 191
+            },
+            "air_fryer": {
+                "model": "Instant Vortex",
+                "power_watts": 1500
+            },
+            "ingredients": [
+                {
+                    "name": "Main ingredient",
+                    "quantity": 255,
+                    "unit": "g"
+                },
+                {
+                    "name": "Oil",
+                    "quantity": 1,
+                    "unit": "tbsp"
+                },
+                {
+                    "name": "Salt",
+                    "quantity": 0.5,
+                    "unit": "tsp"
+                }
+            ],
+            "steps": [
+                {
+                    "step_number": 1,
+                    "description": "Prepare ingredients."
+                },
+                {
+                    "step_number": 2,
+                    "description": "Preheat air fryer."
+                },
+                {
+                    "step_number": 3,
+                    "description": "Cook until done."
+                }
+            ],
+            "media": {
+                "main_image_url": "https://media.istockphoto.com/id/476151760/photo/homemade-cheesy-garlic-bread.jpg?s=612x612&w=0&k=20&c=Pm_S5QRMPuFyrkT95WJq4j1UVhjTeobXQdw6_pZUU00="
+            },
+            "nutrition": {
+                "calories": 310,
+                "protein_g": 16,
+                "carbs_g": 31,
+                "fat_g": 19
+            },
+            "tips": [
+                "Shake basket halfway."
+            ],
+            "notes": "Adjust seasoning as needed.",
+            "author": {
+                "name": "Admin"
+            },
+            "rating": {
+                "average": 4.1,
+                "reviews_count": 105
+            },
+            "created_at": "2026-03-23T03:13:36Z"
+        },
+        {
+            "recipe_id": "AFR012",
+            "name": "Veg Cutlet",
+            "level": "Easy",
+            "diet": "veg",
+            "tags": [
+                "snack",
+                "quick"
+            ],
+            "servings": 2,
+            "timing": {
+                "prep_time_minutes": 22,
+                "preheat_time_minutes": 5,
+                "cook_time_minutes": 12,
+                "total_time_minutes": 37
+            },
+            "temperature": {
+                "preheat_celsius": 180,
+                "cook_celsius": 192
+            },
+            "air_fryer": {
+                "model": "Philips HD9252",
+                "power_watts": 1400
+            },
+            "ingredients": [
+                {
+                    "name": "Main ingredient",
+                    "quantity": 260,
+                    "unit": "g"
+                },
+                {
+                    "name": "Oil",
+                    "quantity": 1,
+                    "unit": "tbsp"
+                },
+                {
+                    "name": "Salt",
+                    "quantity": 0.5,
+                    "unit": "tsp"
+                }
+            ],
+            "steps": [
+                {
+                    "step_number": 1,
+                    "description": "Prepare ingredients."
+                },
+                {
+                    "step_number": 2,
+                    "description": "Preheat air fryer."
+                },
+                {
+                    "step_number": 3,
+                    "description": "Cook until done."
+                }
+            ],
+            "media": {
+                "main_image_url": "https://media.istockphoto.com/id/1190997065/photo/veg-poha-roll-patties-or-tikki.jpg?s=612x612&w=0&k=20&c=GNaIK4voV_i5zCKWoaKWmFFfbZosK3fZo5yzqKpil5E="
+            },
+            "nutrition": {
+                "calories": 320,
+                "protein_g": 17,
+                "carbs_g": 32,
+                "fat_g": 20
+            },
+            "tips": [
+                "Shake basket halfway."
+            ],
+            "notes": "Adjust seasoning as needed.",
+            "author": {
+                "name": "Admin"
+            },
+            "rating": {
+                "average": 4.2,
+                "reviews_count": 110
+            },
+            "created_at": "2026-03-23T03:13:36Z"
+        },
+        {
+            "recipe_id": "AFR013",
+            "name": "Tandoori Chicken",
+            "level": "Medium",
+            "diet": "non-veg",
+            "tags": [
+                "protein",
+                "starter"
+            ],
+            "servings": 3,
+            "timing": {
+                "prep_time_minutes": 23,
+                "preheat_time_minutes": 5,
+                "cook_time_minutes": 13,
+                "total_time_minutes": 38
+            },
+            "temperature": {
+                "preheat_celsius": 180,
+                "cook_celsius": 193
+            },
+            "air_fryer": {
+                "model": "Instant Vortex",
+                "power_watts": 1500
+            },
+            "ingredients": [
+                {
+                    "name": "Main ingredient",
+                    "quantity": 265,
+                    "unit": "g"
+                },
+                {
+                    "name": "Oil",
+                    "quantity": 1,
+                    "unit": "tbsp"
+                },
+                {
+                    "name": "Salt",
+                    "quantity": 0.5,
+                    "unit": "tsp"
+                }
+            ],
+            "steps": [
+                {
+                    "step_number": 1,
+                    "description": "Prepare ingredients."
+                },
+                {
+                    "step_number": 2,
+                    "description": "Preheat air fryer."
+                },
+                {
+                    "step_number": 3,
+                    "description": "Cook until done."
+                }
+            ],
+            "media": {
+                "main_image_url": "https://media.istockphoto.com/id/1396604313/photo/roasted-whole-chicken-legs-with-condiment-directly-above-photo.jpg?s=612x612&w=0&k=20&c=JDs72E-fX5SdcBQREta58T82W8zO_rFiKC7d1WwEEUE="
+            },
+            "nutrition": {
+                "calories": 330,
+                "protein_g": 18,
+                "carbs_g": 33,
+                "fat_g": 21
+            },
+            "tips": [
+                "Shake basket halfway."
+            ],
+            "notes": "Adjust seasoning as needed.",
+            "author": {
+                "name": "Admin"
+            },
+            "rating": {
+                "average": 4.3,
+                "reviews_count": 115
+            },
+            "created_at": "2026-03-23T03:13:36Z"
+        },
+        {
+            "recipe_id": "AFR014",
+            "name": "Paneer Wrap",
+            "level": "Medium",
+            "diet": "veg",
+            "tags": [
+                "snack",
+                "quick"
+            ],
+            "servings": 4,
+            "timing": {
+                "prep_time_minutes": 24,
+                "preheat_time_minutes": 5,
+                "cook_time_minutes": 14,
+                "total_time_minutes": 39
+            },
+            "temperature": {
+                "preheat_celsius": 180,
+                "cook_celsius": 194
+            },
+            "air_fryer": {
+                "model": "Philips HD9252",
+                "power_watts": 1400
+            },
+            "ingredients": [
+                {
+                    "name": "Main ingredient",
+                    "quantity": 270,
+                    "unit": "g"
+                },
+                {
+                    "name": "Oil",
+                    "quantity": 1,
+                    "unit": "tbsp"
+                },
+                {
+                    "name": "Salt",
+                    "quantity": 0.5,
+                    "unit": "tsp"
+                }
+            ],
+            "steps": [
+                {
+                    "step_number": 1,
+                    "description": "Prepare ingredients."
+                },
+                {
+                    "step_number": 2,
+                    "description": "Preheat air fryer."
+                },
+                {
+                    "step_number": 3,
+                    "description": "Cook until done."
+                }
+            ],
+            "media": {
+                "main_image_url": "https://media.istockphoto.com/id/665780252/photo/indian-popular-snack-food-called-vegetable-spring-rolls-or-veg-roll-or-veg-franky-made-using.jpg?s=612x612&w=0&k=20&c=tujyS4GYX8fcL16Unepz2wJ92G7JF2RwmQCEyPI-2gc="
+            },
+            "nutrition": {
+                "calories": 340,
+                "protein_g": 19,
+                "carbs_g": 34,
+                "fat_g": 22
+            },
+            "tips": [
+                "Shake basket halfway."
+            ],
+            "notes": "Adjust seasoning as needed.",
+            "author": {
+                "name": "Admin"
+            },
+            "rating": {
+                "average": 4.4,
+                "reviews_count": 120
+            },
+            "created_at": "2026-03-23T03:13:36Z"
+        },
+        {
+            "recipe_id": "AFR015",
+            "name": "Fried Rice",
+            "level": "Easy",
+            "diet": "veg",
+            "tags": [
+                "protein",
+                "starter"
+            ],
+            "servings": 2,
+            "timing": {
+                "prep_time_minutes": 25,
+                "preheat_time_minutes": 5,
+                "cook_time_minutes": 15,
+                "total_time_minutes": 40
+            },
+            "temperature": {
+                "preheat_celsius": 180,
+                "cook_celsius": 195
+            },
+            "air_fryer": {
+                "model": "Instant Vortex",
+                "power_watts": 1500
+            },
+            "ingredients": [
+                {
+                    "name": "Main ingredient",
+                    "quantity": 275,
+                    "unit": "g"
+                },
+                {
+                    "name": "Oil",
+                    "quantity": 1,
+                    "unit": "tbsp"
+                },
+                {
+                    "name": "Salt",
+                    "quantity": 0.5,
+                    "unit": "tsp"
+                }
+            ],
+            "steps": [
+                {
+                    "step_number": 1,
+                    "description": "Prepare ingredients."
+                },
+                {
+                    "step_number": 2,
+                    "description": "Preheat air fryer."
+                },
+                {
+                    "step_number": 3,
+                    "description": "Cook until done."
+                }
+            ],
+            "media": {
+                "main_image_url": "https://media.istockphoto.com/id/1292617507/photo/tasty-veg-schezwan-fried-rice-served-in-bowl-over-a-rustic-wooden-background-indian-cuisine.jpg?s=612x612&w=0&k=20&c=MlfiFWbcPDUj2wnjtxoHBxSUrRrKb9c1OR8rS9H4goc="
+            },
+            "nutrition": {
+                "calories": 350,
+                "protein_g": 20,
+                "carbs_g": 35,
+                "fat_g": 23
+            },
+            "tips": [
+                "Shake basket halfway."
+            ],
+            "notes": "Adjust seasoning as needed.",
+            "author": {
+                "name": "Admin"
+            },
+            "rating": {
+                "average": 4.0,
+                "reviews_count": 125
+            },
+            "created_at": "2026-03-23T03:13:36Z"
+        },
+        {
+            "recipe_id": "AFR016",
+            "name": "Noodles",
+            "level": "Medium",
+            "diet": "veg",
+            "tags": [
+                "snack",
+                "quick"
+            ],
+            "servings": 3,
+            "timing": {
+                "prep_time_minutes": 26,
+                "preheat_time_minutes": 5,
+                "cook_time_minutes": 16,
+                "total_time_minutes": 41
+            },
+            "temperature": {
+                "preheat_celsius": 180,
+                "cook_celsius": 196
+            },
+            "air_fryer": {
+                "model": "Philips HD9252",
+                "power_watts": 1400
+            },
+            "ingredients": [
+                {
+                    "name": "Main ingredient",
+                    "quantity": 280,
+                    "unit": "g"
+                },
+                {
+                    "name": "Oil",
+                    "quantity": 1,
+                    "unit": "tbsp"
+                },
+                {
+                    "name": "Salt",
+                    "quantity": 0.5,
+                    "unit": "tsp"
+                }
+            ],
+            "steps": [
+                {
+                    "step_number": 1,
+                    "description": "Prepare ingredients."
+                },
+                {
+                    "step_number": 2,
+                    "description": "Preheat air fryer."
+                },
+                {
+                    "step_number": 3,
+                    "description": "Cook until done."
+                }
+            ],
+            "media": {
+                "main_image_url": "https://media.istockphoto.com/id/1292637257/photo/veg-hakka-noodles-a-popular-oriental-dish-made-with-noodles-and-vegetables-served-over-a.jpg?s=612x612&w=0&k=20&c=ckgGtleqsGxEMEW0ZlOR9eM8ii_R3A1apAMo8xa2Cr4="
+            },
+            "nutrition": {
+                "calories": 360,
+                "protein_g": 21,
+                "carbs_g": 36,
+                "fat_g": 24
+            },
+            "tips": [
+                "Shake basket halfway."
+            ],
+            "notes": "Adjust seasoning as needed.",
+            "author": {
+                "name": "Admin"
+            },
+            "rating": {
+                "average": 4.1,
+                "reviews_count": 130
+            },
+            "created_at": "2026-03-23T03:13:36Z"
+        },
+        {
+            "recipe_id": "AFR017",
+            "name": "Omelette",
+            "level": "Medium",
+            "diet": "non-veg",
+            "tags": [
+                "protein",
+                "starter"
+            ],
+            "servings": 4,
+            "timing": {
+                "prep_time_minutes": 27,
+                "preheat_time_minutes": 5,
+                "cook_time_minutes": 17,
+                "total_time_minutes": 42
+            },
+            "temperature": {
+                "preheat_celsius": 180,
+                "cook_celsius": 197
+            },
+            "air_fryer": {
+                "model": "Instant Vortex",
+                "power_watts": 1500
+            },
+            "ingredients": [
+                {
+                    "name": "Main ingredient",
+                    "quantity": 285,
+                    "unit": "g"
+                },
+                {
+                    "name": "Oil",
+                    "quantity": 1,
+                    "unit": "tbsp"
+                },
+                {
+                    "name": "Salt",
+                    "quantity": 0.5,
+                    "unit": "tsp"
+                }
+            ],
+            "steps": [
+                {
+                    "step_number": 1,
+                    "description": "Prepare ingredients."
+                },
+                {
+                    "step_number": 2,
+                    "description": "Preheat air fryer."
+                },
+                {
+                    "step_number": 3,
+                    "description": "Cook until done."
+                }
+            ],
+            "media": {
+                "main_image_url": "https://media.istockphoto.com/id/485040276/photo/herb-omelette-with-chives-and-oregano.jpg?s=612x612&w=0&k=20&c=gWzwd_-neHOmCgirxaaGCwEJElbuYPzY917oWPWp6kI="
+            },
+            "nutrition": {
+                "calories": 370,
+                "protein_g": 22,
+                "carbs_g": 37,
+                "fat_g": 25
+            },
+            "tips": [
+                "Shake basket halfway."
+            ],
+            "notes": "Adjust seasoning as needed.",
+            "author": {
+                "name": "Admin"
+            },
+            "rating": {
+                "average": 4.2,
+                "reviews_count": 135
+            },
+            "created_at": "2026-03-23T03:13:36Z"
+        },
+        {
+            "recipe_id": "AFR018",
+            "name": "Masala Corn",
+            "level": "Easy",
+            "diet": "veg",
+            "tags": [
+                "snack",
+                "quick"
+            ],
+            "servings": 2,
+            "timing": {
+                "prep_time_minutes": 28,
+                "preheat_time_minutes": 5,
+                "cook_time_minutes": 18,
+                "total_time_minutes": 43
+            },
+            "temperature": {
+                "preheat_celsius": 180,
+                "cook_celsius": 198
+            },
+            "air_fryer": {
+                "model": "Philips HD9252",
+                "power_watts": 1400
+            },
+            "ingredients": [
+                {
+                    "name": "Main ingredient",
+                    "quantity": 290,
+                    "unit": "g"
+                },
+                {
+                    "name": "Oil",
+                    "quantity": 1,
+                    "unit": "tbsp"
+                },
+                {
+                    "name": "Salt",
+                    "quantity": 0.5,
+                    "unit": "tsp"
+                }
+            ],
+            "steps": [
+                {
+                    "step_number": 1,
+                    "description": "Prepare ingredients."
+                },
+                {
+                    "step_number": 2,
+                    "description": "Preheat air fryer."
+                },
+                {
+                    "step_number": 3,
+                    "description": "Cook until done."
+                }
+            ],
+            "media": {
+                "main_image_url": "https://media.istockphoto.com/id/1252698083/photo/sweet-corn-chat-or-chaat-is-a-popular-indian-roadside-healthy-snack.jpg?s=612x612&w=0&k=20&c=APArcDADASoNwydrdeNOmih86RHqhvGum4qpVbqr6r8="
+            },
+            "nutrition": {
+                "calories": 380,
+                "protein_g": 23,
+                "carbs_g": 38,
+                "fat_g": 26
+            },
+            "tips": [
+                "Shake basket halfway."
+            ],
+            "notes": "Adjust seasoning as needed.",
+            "author": {
+                "name": "Admin"
+            },
+            "rating": {
+                "average": 4.3,
+                "reviews_count": 140
+            },
+            "created_at": "2026-03-23T03:13:36Z"
+        },
+        {
+            "recipe_id": "AFR019",
+            "name": "Stuffed Mushrooms",
+            "level": "Medium",
+            "diet": "veg",
+            "tags": [
+                "protein",
+                "starter"
+            ],
+            "servings": 3,
+            "timing": {
+                "prep_time_minutes": 29,
+                "preheat_time_minutes": 5,
+                "cook_time_minutes": 19,
+                "total_time_minutes": 44
+            },
+            "temperature": {
+                "preheat_celsius": 180,
+                "cook_celsius": 199
+            },
+            "air_fryer": {
+                "model": "Instant Vortex",
+                "power_watts": 1500
+            },
+            "ingredients": [
+                {
+                    "name": "Main ingredient",
+                    "quantity": 295,
+                    "unit": "g"
+                },
+                {
+                    "name": "Oil",
+                    "quantity": 1,
+                    "unit": "tbsp"
+                },
+                {
+                    "name": "Salt",
+                    "quantity": 0.5,
+                    "unit": "tsp"
+                }
+            ],
+            "steps": [
+                {
+                    "step_number": 1,
+                    "description": "Prepare ingredients."
+                },
+                {
+                    "step_number": 2,
+                    "description": "Preheat air fryer."
+                },
+                {
+                    "step_number": 3,
+                    "description": "Cook until done."
+                }
+            ],
+            "media": {
+                "main_image_url": "https://media.istockphoto.com/id/1153453984/photo/roasted-portobello-mushrooms-stuffed-with-cheese-and-herbs-on-a-black-iron-background-top-view.jpg?s=612x612&w=0&k=20&c=vYv2ocyjossrk_1_a3Kw4vBA1mbegxS30RJcT7KKN90="
+            },
+            "nutrition": {
+                "calories": 390,
+                "protein_g": 24,
+                "carbs_g": 39,
+                "fat_g": 27
+            },
+            "tips": [
+                "Shake basket halfway."
+            ],
+            "notes": "Adjust seasoning as needed.",
+            "author": {
+                "name": "Admin"
+            },
+            "rating": {
+                "average": 4.4,
+                "reviews_count": 145
+            },
+            "created_at": "2026-03-23T03:13:36Z"
+        },
+        {
+            "recipe_id": "AFR020",
+            "name": "Veg Kebabs",
+            "level": "Medium",
+            "diet": "veg",
+            "tags": [
+                "snack",
+                "quick"
+            ],
+            "servings": 4,
+            "timing": {
+                "prep_time_minutes": 30,
+                "preheat_time_minutes": 5,
+                "cook_time_minutes": 10,
+                "total_time_minutes": 45
+            },
+            "temperature": {
+                "preheat_celsius": 180,
+                "cook_celsius": 180
+            },
+            "air_fryer": {
+                "model": "Philips HD9252",
+                "power_watts": 1400
+            },
+            "ingredients": [
+                {
+                    "name": "Main ingredient",
+                    "quantity": 300,
+                    "unit": "g"
+                },
+                {
+                    "name": "Oil",
+                    "quantity": 1,
+                    "unit": "tbsp"
+                },
+                {
+                    "name": "Salt",
+                    "quantity": 0.5,
+                    "unit": "tsp"
+                }
+            ],
+            "steps": [
+                {
+                    "step_number": 1,
+                    "description": "Prepare ingredients."
+                },
+                {
+                    "step_number": 2,
+                    "description": "Preheat air fryer."
+                },
+                {
+                    "step_number": 3,
+                    "description": "Cook until done."
+                }
+            ],
+            "media": {
+                "main_image_url": "https://media.istockphoto.com/id/980167904/photo/veg-seekh-kabab-served-with-green-salad-and-chutney.jpg?s=612x612&w=0&k=20&c=RULxev246ksjzvMI-FBvitL3A-9blQdyv7KX-Hz0O1k="
+            },
+            "nutrition": {
+                "calories": 400,
+                "protein_g": 25,
+                "carbs_g": 40,
+                "fat_g": 28
+            },
+            "tips": [
+                "Shake basket halfway."
+            ],
+            "notes": "Adjust seasoning as needed.",
+            "author": {
+                "name": "Admin"
+            },
+            "rating": {
+                "average": 4.0,
+                "reviews_count": 150
+            },
+            "created_at": "2026-03-23T03:13:36Z"
         }
-      ],
-      "steps": [
-        {
-          "step_number": 1,
-          "description": "Prepare ingredients."
-        },
-        {
-          "step_number": 2,
-          "description": "Preheat air fryer."
-        },
-        {
-          "step_number": 3,
-          "description": "Cook until done."
-        }
-      ],
-      "media": {
-        "main_image_url": "https://media.istockphoto.com/id/1443993866/photo/french-fries-with-ketchup.jpg"
-      },
-      "nutrition": {
-        "calories": 210,
-        "protein_g": 6,
-        "carbs_g": 21,
-        "fat_g": 9
-      },
-      "tips": [
-        "Shake basket halfway."
-      ],
-      "notes": "Adjust seasoning as needed.",
-      "author": {
-        "name": "Admin"
-      },
-      "rating": {
-        "average": 4.1,
-        "reviews_count": 55
-      },
-      "created_at": "2026-03-23T03:13:36Z"
-    },
-    {
-      "recipe_id": "AFR002",
-      "name": "Chicken Wings",
-      "level": "Medium",
-      "diet": "veg",
-      "tags": [
-        "snack",
-        "quick"
-      ],
-      "servings": 4,
-      "timing": {
-        "prep_time_minutes": 12,
-        "preheat_time_minutes": 5,
-        "cook_time_minutes": 12,
-        "total_time_minutes": 27
-      },
-      "temperature": {
-        "preheat_celsius": 180,
-        "cook_celsius": 182
-      },
-      "air_fryer": {
-        "model": "Philips HD9252",
-        "power_watts": 1400
-      },
-      "ingredients": [
-        {
-          "name": "Main ingredient",
-          "quantity": 210,
-          "unit": "g"
-        },
-        {
-          "name": "Oil",
-          "quantity": 1,
-          "unit": "tbsp"
-        },
-        {
-          "name": "Salt",
-          "quantity": 0.5,
-          "unit": "tsp"
-        }
-      ],
-      "steps": [
-        {
-          "step_number": 1,
-          "description": "Prepare ingredients."
-        },
-        {
-          "step_number": 2,
-          "description": "Preheat air fryer."
-        },
-        {
-          "step_number": 3,
-          "description": "Cook until done."
-        }
-      ],
-      "media": {
-        "main_image_url": "https://media.istockphoto.com/id/835903320/photo/baked-chicken-wings.jpg"
-      },
-      "nutrition": {
-        "calories": 220,
-        "protein_g": 7,
-        "carbs_g": 22,
-        "fat_g": 10
-      },
-      "tips": [
-        "Shake basket halfway."
-      ],
-      "notes": "Adjust seasoning as needed.",
-      "author": {
-        "name": "Admin"
-      },
-      "rating": {
-        "average": 4.2,
-        "reviews_count": 60
-      },
-      "created_at": "2026-03-23T03:13:36Z"
-    },
-    {
-      "recipe_id": "AFR003",
-      "name": "Paneer Tikka",
-      "level": "Easy",
-      "diet": "non-veg",
-      "tags": [
-        "protein",
-        "starter"
-      ],
-      "servings": 2,
-      "timing": {
-        "prep_time_minutes": 13,
-        "preheat_time_minutes": 5,
-        "cook_time_minutes": 13,
-        "total_time_minutes": 28
-      },
-      "temperature": {
-        "preheat_celsius": 180,
-        "cook_celsius": 183
-      },
-      "air_fryer": {
-        "model": "Instant Vortex",
-        "power_watts": 1500
-      },
-      "ingredients": [
-        {
-          "name": "Main ingredient",
-          "quantity": 215,
-          "unit": "g"
-        },
-        {
-          "name": "Oil",
-          "quantity": 1,
-          "unit": "tbsp"
-        },
-        {
-          "name": "Salt",
-          "quantity": 0.5,
-          "unit": "tsp"
-        }
-      ],
-      "steps": [
-        {
-          "step_number": 1,
-          "description": "Prepare ingredients."
-        },
-        {
-          "step_number": 2,
-          "description": "Preheat air fryer."
-        },
-        {
-          "step_number": 3,
-          "description": "Cook until done."
-        }
-      ],
-      "media": {
-        "main_image_url": "https://media.istockphoto.com/id/1411191106/photo/paneer-tikka.jpg"
-      },
-      "nutrition": {
-        "calories": 230,
-        "protein_g": 8,
-        "carbs_g": 23,
-        "fat_g": 11
-      },
-      "tips": [
-        "Shake basket halfway."
-      ],
-      "notes": "Adjust seasoning as needed.",
-      "author": {
-        "name": "Admin"
-      },
-      "rating": {
-        "average": 4.3,
-        "reviews_count": 65
-      },
-      "created_at": "2026-03-23T03:13:36Z"
-    },
-    {
-      "recipe_id": "AFR004",
-      "name": "Samosa",
-      "level": "Medium",
-      "diet": "veg",
-      "tags": [
-        "snack",
-        "quick"
-      ],
-      "servings": 3,
-      "timing": {
-        "prep_time_minutes": 14,
-        "preheat_time_minutes": 5,
-        "cook_time_minutes": 14,
-        "total_time_minutes": 29
-      },
-      "temperature": {
-        "preheat_celsius": 180,
-        "cook_celsius": 184
-      },
-      "air_fryer": {
-        "model": "Philips HD9252",
-        "power_watts": 1400
-      },
-      "ingredients": [
-        {
-          "name": "Main ingredient",
-          "quantity": 220,
-          "unit": "g"
-        },
-        {
-          "name": "Oil",
-          "quantity": 1,
-          "unit": "tbsp"
-        },
-        {
-          "name": "Salt",
-          "quantity": 0.5,
-          "unit": "tsp"
-        }
-      ],
-      "steps": [
-        {
-          "step_number": 1,
-          "description": "Prepare ingredients."
-        },
-        {
-          "step_number": 2,
-          "description": "Preheat air fryer."
-        },
-        {
-          "step_number": 3,
-          "description": "Cook until done."
-        }
-      ],
-      "media": {
-        "main_image_url": "https://media.istockphoto.com/id/2148933061/photo/samosa.jpg"
-      },
-      "nutrition": {
-        "calories": 240,
-        "protein_g": 9,
-        "carbs_g": 24,
-        "fat_g": 12
-      },
-      "tips": [
-        "Shake basket halfway."
-      ],
-      "notes": "Adjust seasoning as needed.",
-      "author": {
-        "name": "Admin"
-      },
-      "rating": {
-        "average": 4.4,
-        "reviews_count": 70
-      },
-      "created_at": "2026-03-23T03:13:36Z"
-    },
-    {
-      "recipe_id": "AFR005",
-      "name": "Chicken Nuggets",
-      "level": "Medium",
-      "diet": "non-veg",
-      "tags": [
-        "protein",
-        "starter"
-      ],
-      "servings": 4,
-      "timing": {
-        "prep_time_minutes": 15,
-        "preheat_time_minutes": 5,
-        "cook_time_minutes": 15,
-        "total_time_minutes": 30
-      },
-      "temperature": {
-        "preheat_celsius": 180,
-        "cook_celsius": 185
-      },
-      "air_fryer": {
-        "model": "Instant Vortex",
-        "power_watts": 1500
-      },
-      "ingredients": [
-        {
-          "name": "Main ingredient",
-          "quantity": 225,
-          "unit": "g"
-        },
-        {
-          "name": "Oil",
-          "quantity": 1,
-          "unit": "tbsp"
-        },
-        {
-          "name": "Salt",
-          "quantity": 0.5,
-          "unit": "tsp"
-        }
-      ],
-      "steps": [
-        {
-          "step_number": 1,
-          "description": "Prepare ingredients."
-        },
-        {
-          "step_number": 2,
-          "description": "Preheat air fryer."
-        },
-        {
-          "step_number": 3,
-          "description": "Cook until done."
-        }
-      ],
-      "media": {
-        "main_image_url": "https://media.istockphoto.com/id/470177926/photo/chicken-nuggets.jpg"
-      },
-      "nutrition": {
-        "calories": 250,
-        "protein_g": 10,
-        "carbs_g": 25,
-        "fat_g": 13
-      },
-      "tips": [
-        "Shake basket halfway."
-      ],
-      "notes": "Adjust seasoning as needed.",
-      "author": {
-        "name": "Admin"
-      },
-      "rating": {
-        "average": 4.0,
-        "reviews_count": 75
-      },
-      "created_at": "2026-03-23T03:13:36Z"
-    },
-    {
-      "recipe_id": "AFR006",
-      "name": "Roasted Vegetables",
-      "level": "Easy",
-      "diet": "veg",
-      "tags": [
-        "snack",
-        "quick"
-      ],
-      "servings": 2,
-      "timing": {
-        "prep_time_minutes": 16,
-        "preheat_time_minutes": 5,
-        "cook_time_minutes": 16,
-        "total_time_minutes": 31
-      },
-      "temperature": {
-        "preheat_celsius": 180,
-        "cook_celsius": 186
-      },
-      "air_fryer": {
-        "model": "Philips HD9252",
-        "power_watts": 1400
-      },
-      "ingredients": [
-        {
-          "name": "Main ingredient",
-          "quantity": 230,
-          "unit": "g"
-        },
-        {
-          "name": "Oil",
-          "quantity": 1,
-          "unit": "tbsp"
-        },
-        {
-          "name": "Salt",
-          "quantity": 0.5,
-          "unit": "tsp"
-        }
-      ],
-      "steps": [
-        {
-          "step_number": 1,
-          "description": "Prepare ingredients."
-        },
-        {
-          "step_number": 2,
-          "description": "Preheat air fryer."
-        },
-        {
-          "step_number": 3,
-          "description": "Cook until done."
-        }
-      ],
-      "media": {
-        "main_image_url": "https://media.istockphoto.com/id/1134749964/photo/roasted-vegetables.jpg"
-      },
-      "nutrition": {
-        "calories": 260,
-        "protein_g": 11,
-        "carbs_g": 26,
-        "fat_g": 14
-      },
-      "tips": [
-        "Shake basket halfway."
-      ],
-      "notes": "Adjust seasoning as needed.",
-      "author": {
-        "name": "Admin"
-      },
-      "rating": {
-        "average": 4.1,
-        "reviews_count": 80
-      },
-      "created_at": "2026-03-23T03:13:36Z"
-    },
-    {
-      "recipe_id": "AFR007",
-      "name": "Fish Fry",
-      "level": "Medium",
-      "diet": "non-veg",
-      "tags": [
-        "protein",
-        "starter"
-      ],
-      "servings": 3,
-      "timing": {
-        "prep_time_minutes": 17,
-        "preheat_time_minutes": 5,
-        "cook_time_minutes": 17,
-        "total_time_minutes": 32
-      },
-      "temperature": {
-        "preheat_celsius": 180,
-        "cook_celsius": 187
-      },
-      "air_fryer": {
-        "model": "Instant Vortex",
-        "power_watts": 1500
-      },
-      "ingredients": [
-        {
-          "name": "Main ingredient",
-          "quantity": 235,
-          "unit": "g"
-        },
-        {
-          "name": "Oil",
-          "quantity": 1,
-          "unit": "tbsp"
-        },
-        {
-          "name": "Salt",
-          "quantity": 0.5,
-          "unit": "tsp"
-        }
-      ],
-      "steps": [
-        {
-          "step_number": 1,
-          "description": "Prepare ingredients."
-        },
-        {
-          "step_number": 2,
-          "description": "Preheat air fryer."
-        },
-        {
-          "step_number": 3,
-          "description": "Cook until done."
-        }
-      ],
-      "media": {
-        "main_image_url": "https://media.istockphoto.com/id/1309353866/photo/fish-fry.jpg"
-      },
-      "nutrition": {
-        "calories": 270,
-        "protein_g": 12,
-        "carbs_g": 27,
-        "fat_g": 15
-      },
-      "tips": [
-        "Shake basket halfway."
-      ],
-      "notes": "Adjust seasoning as needed.",
-      "author": {
-        "name": "Admin"
-      },
-      "rating": {
-        "average": 4.2,
-        "reviews_count": 85
-      },
-      "created_at": "2026-03-23T03:13:36Z"
-    },
-    {
-      "recipe_id": "AFR008",
-      "name": "Spring Rolls",
-      "level": "Medium",
-      "diet": "veg",
-      "tags": [
-        "snack",
-        "quick"
-      ],
-      "servings": 4,
-      "timing": {
-        "prep_time_minutes": 18,
-        "preheat_time_minutes": 5,
-        "cook_time_minutes": 18,
-        "total_time_minutes": 33
-      },
-      "temperature": {
-        "preheat_celsius": 180,
-        "cook_celsius": 188
-      },
-      "air_fryer": {
-        "model": "Philips HD9252",
-        "power_watts": 1400
-      },
-      "ingredients": [
-        {
-          "name": "Main ingredient",
-          "quantity": 240,
-          "unit": "g"
-        },
-        {
-          "name": "Oil",
-          "quantity": 1,
-          "unit": "tbsp"
-        },
-        {
-          "name": "Salt",
-          "quantity": 0.5,
-          "unit": "tsp"
-        }
-      ],
-      "steps": [
-        {
-          "step_number": 1,
-          "description": "Prepare ingredients."
-        },
-        {
-          "step_number": 2,
-          "description": "Preheat air fryer."
-        },
-        {
-          "step_number": 3,
-          "description": "Cook until done."
-        }
-      ],
-      "media": {
-        "main_image_url": "https://media.istockphoto.com/id/1371154829/photo/spring-rolls.jpg"
-      },
-      "nutrition": {
-        "calories": 280,
-        "protein_g": 13,
-        "carbs_g": 28,
-        "fat_g": 16
-      },
-      "tips": [
-        "Shake basket halfway."
-      ],
-      "notes": "Adjust seasoning as needed.",
-      "author": {
-        "name": "Admin"
-      },
-      "rating": {
-        "average": 4.3,
-        "reviews_count": 90
-      },
-      "created_at": "2026-03-23T03:13:36Z"
-    },
-    {
-      "recipe_id": "AFR009",
-      "name": "Pizza",
-      "level": "Easy",
-      "diet": "non-veg",
-      "tags": [
-        "protein",
-        "starter"
-      ],
-      "servings": 2,
-      "timing": {
-        "prep_time_minutes": 19,
-        "preheat_time_minutes": 5,
-        "cook_time_minutes": 19,
-        "total_time_minutes": 34
-      },
-      "temperature": {
-        "preheat_celsius": 180,
-        "cook_celsius": 189
-      },
-      "air_fryer": {
-        "model": "Instant Vortex",
-        "power_watts": 1500
-      },
-      "ingredients": [
-        {
-          "name": "Main ingredient",
-          "quantity": 245,
-          "unit": "g"
-        },
-        {
-          "name": "Oil",
-          "quantity": 1,
-          "unit": "tbsp"
-        },
-        {
-          "name": "Salt",
-          "quantity": 0.5,
-          "unit": "tsp"
-        }
-      ],
-      "steps": [
-        {
-          "step_number": 1,
-          "description": "Prepare ingredients."
-        },
-        {
-          "step_number": 2,
-          "description": "Preheat air fryer."
-        },
-        {
-          "step_number": 3,
-          "description": "Cook until done."
-        }
-      ],
-      "media": {
-        "main_image_url": "https://media.istockphoto.com/id/187248625/photo/pizza.jpg"
-      },
-      "nutrition": {
-        "calories": 290,
-        "protein_g": 14,
-        "carbs_g": 29,
-        "fat_g": 17
-      },
-      "tips": [
-        "Shake basket halfway."
-      ],
-      "notes": "Adjust seasoning as needed.",
-      "author": {
-        "name": "Admin"
-      },
-      "rating": {
-        "average": 4.4,
-        "reviews_count": 95
-      },
-      "created_at": "2026-03-23T03:13:36Z"
-    },
-    {
-      "recipe_id": "AFR010",
-      "name": "Chocolate Cake",
-      "level": "Medium",
-      "diet": "veg",
-      "tags": [
-        "snack",
-        "quick"
-      ],
-      "servings": 3,
-      "timing": {
-        "prep_time_minutes": 20,
-        "preheat_time_minutes": 5,
-        "cook_time_minutes": 10,
-        "total_time_minutes": 35
-      },
-      "temperature": {
-        "preheat_celsius": 180,
-        "cook_celsius": 190
-      },
-      "air_fryer": {
-        "model": "Philips HD9252",
-        "power_watts": 1400
-      },
-      "ingredients": [
-        {
-          "name": "Main ingredient",
-          "quantity": 250,
-          "unit": "g"
-        },
-        {
-          "name": "Oil",
-          "quantity": 1,
-          "unit": "tbsp"
-        },
-        {
-          "name": "Salt",
-          "quantity": 0.5,
-          "unit": "tsp"
-        }
-      ],
-      "steps": [
-        {
-          "step_number": 1,
-          "description": "Prepare ingredients."
-        },
-        {
-          "step_number": 2,
-          "description": "Preheat air fryer."
-        },
-        {
-          "step_number": 3,
-          "description": "Cook until done."
-        }
-      ],
-      "media": {
-        "main_image_url": "https://media.istockphoto.com/id/1370520449/photo/chocolate-cake.jpg"
-      },
-      "nutrition": {
-        "calories": 300,
-        "protein_g": 15,
-        "carbs_g": 30,
-        "fat_g": 18
-      },
-      "tips": [
-        "Shake basket halfway."
-      ],
-      "notes": "Adjust seasoning as needed.",
-      "author": {
-        "name": "Admin"
-      },
-      "rating": {
-        "average": 4.0,
-        "reviews_count": 100
-      },
-      "created_at": "2026-03-23T03:13:36Z"
-    },
-    {
-      "recipe_id": "AFR011",
-      "name": "Garlic Bread",
-      "level": "Medium",
-      "diet": "non-veg",
-      "tags": [
-        "protein",
-        "starter"
-      ],
-      "servings": 4,
-      "timing": {
-        "prep_time_minutes": 21,
-        "preheat_time_minutes": 5,
-        "cook_time_minutes": 11,
-        "total_time_minutes": 36
-      },
-      "temperature": {
-        "preheat_celsius": 180,
-        "cook_celsius": 191
-      },
-      "air_fryer": {
-        "model": "Instant Vortex",
-        "power_watts": 1500
-      },
-      "ingredients": [
-        {
-          "name": "Main ingredient",
-          "quantity": 255,
-          "unit": "g"
-        },
-        {
-          "name": "Oil",
-          "quantity": 1,
-          "unit": "tbsp"
-        },
-        {
-          "name": "Salt",
-          "quantity": 0.5,
-          "unit": "tsp"
-        }
-      ],
-      "steps": [
-        {
-          "step_number": 1,
-          "description": "Prepare ingredients."
-        },
-        {
-          "step_number": 2,
-          "description": "Preheat air fryer."
-        },
-        {
-          "step_number": 3,
-          "description": "Cook until done."
-        }
-      ],
-      "media": {
-        "main_image_url": "https://media.istockphoto.com/id/1193993516/photo/garlic-bread.jpg"
-      },
-      "nutrition": {
-        "calories": 310,
-        "protein_g": 16,
-        "carbs_g": 31,
-        "fat_g": 19
-      },
-      "tips": [
-        "Shake basket halfway."
-      ],
-      "notes": "Adjust seasoning as needed.",
-      "author": {
-        "name": "Admin"
-      },
-      "rating": {
-        "average": 4.1,
-        "reviews_count": 105
-      },
-      "created_at": "2026-03-23T03:13:36Z"
-    },
-    {
-      "recipe_id": "AFR012",
-      "name": "Veg Cutlet",
-      "level": "Easy",
-      "diet": "veg",
-      "tags": [
-        "snack",
-        "quick"
-      ],
-      "servings": 2,
-      "timing": {
-        "prep_time_minutes": 22,
-        "preheat_time_minutes": 5,
-        "cook_time_minutes": 12,
-        "total_time_minutes": 37
-      },
-      "temperature": {
-        "preheat_celsius": 180,
-        "cook_celsius": 192
-      },
-      "air_fryer": {
-        "model": "Philips HD9252",
-        "power_watts": 1400
-      },
-      "ingredients": [
-        {
-          "name": "Main ingredient",
-          "quantity": 260,
-          "unit": "g"
-        },
-        {
-          "name": "Oil",
-          "quantity": 1,
-          "unit": "tbsp"
-        },
-        {
-          "name": "Salt",
-          "quantity": 0.5,
-          "unit": "tsp"
-        }
-      ],
-      "steps": [
-        {
-          "step_number": 1,
-          "description": "Prepare ingredients."
-        },
-        {
-          "step_number": 2,
-          "description": "Preheat air fryer."
-        },
-        {
-          "step_number": 3,
-          "description": "Cook until done."
-        }
-      ],
-      "media": {
-        "main_image_url": "https://media.istockphoto.com/id/1211041276/photo/veg-cutlet.jpg"
-      },
-      "nutrition": {
-        "calories": 320,
-        "protein_g": 17,
-        "carbs_g": 32,
-        "fat_g": 20
-      },
-      "tips": [
-        "Shake basket halfway."
-      ],
-      "notes": "Adjust seasoning as needed.",
-      "author": {
-        "name": "Admin"
-      },
-      "rating": {
-        "average": 4.2,
-        "reviews_count": 110
-      },
-      "created_at": "2026-03-23T03:13:36Z"
-    },
-    {
-      "recipe_id": "AFR013",
-      "name": "Tandoori Chicken",
-      "level": "Medium",
-      "diet": "non-veg",
-      "tags": [
-        "protein",
-        "starter"
-      ],
-      "servings": 3,
-      "timing": {
-        "prep_time_minutes": 23,
-        "preheat_time_minutes": 5,
-        "cook_time_minutes": 13,
-        "total_time_minutes": 38
-      },
-      "temperature": {
-        "preheat_celsius": 180,
-        "cook_celsius": 193
-      },
-      "air_fryer": {
-        "model": "Instant Vortex",
-        "power_watts": 1500
-      },
-      "ingredients": [
-        {
-          "name": "Main ingredient",
-          "quantity": 265,
-          "unit": "g"
-        },
-        {
-          "name": "Oil",
-          "quantity": 1,
-          "unit": "tbsp"
-        },
-        {
-          "name": "Salt",
-          "quantity": 0.5,
-          "unit": "tsp"
-        }
-      ],
-      "steps": [
-        {
-          "step_number": 1,
-          "description": "Prepare ingredients."
-        },
-        {
-          "step_number": 2,
-          "description": "Preheat air fryer."
-        },
-        {
-          "step_number": 3,
-          "description": "Cook until done."
-        }
-      ],
-      "media": {
-        "main_image_url": "https://media.istockphoto.com/id/1292563627/photo/tandoori-chicken.jpg"
-      },
-      "nutrition": {
-        "calories": 330,
-        "protein_g": 18,
-        "carbs_g": 33,
-        "fat_g": 21
-      },
-      "tips": [
-        "Shake basket halfway."
-      ],
-      "notes": "Adjust seasoning as needed.",
-      "author": {
-        "name": "Admin"
-      },
-      "rating": {
-        "average": 4.3,
-        "reviews_count": 115
-      },
-      "created_at": "2026-03-23T03:13:36Z"
-    },
-    {
-      "recipe_id": "AFR014",
-      "name": "Paneer Wrap",
-      "level": "Medium",
-      "diet": "veg",
-      "tags": [
-        "snack",
-        "quick"
-      ],
-      "servings": 4,
-      "timing": {
-        "prep_time_minutes": 24,
-        "preheat_time_minutes": 5,
-        "cook_time_minutes": 14,
-        "total_time_minutes": 39
-      },
-      "temperature": {
-        "preheat_celsius": 180,
-        "cook_celsius": 194
-      },
-      "air_fryer": {
-        "model": "Philips HD9252",
-        "power_watts": 1400
-      },
-      "ingredients": [
-        {
-          "name": "Main ingredient",
-          "quantity": 270,
-          "unit": "g"
-        },
-        {
-          "name": "Oil",
-          "quantity": 1,
-          "unit": "tbsp"
-        },
-        {
-          "name": "Salt",
-          "quantity": 0.5,
-          "unit": "tsp"
-        }
-      ],
-      "steps": [
-        {
-          "step_number": 1,
-          "description": "Prepare ingredients."
-        },
-        {
-          "step_number": 2,
-          "description": "Preheat air fryer."
-        },
-        {
-          "step_number": 3,
-          "description": "Cook until done."
-        }
-      ],
-      "media": {
-        "main_image_url": "https://media.istockphoto.com/id/1205482293/photo/paneer-wrap.jpg"
-      },
-      "nutrition": {
-        "calories": 340,
-        "protein_g": 19,
-        "carbs_g": 34,
-        "fat_g": 22
-      },
-      "tips": [
-        "Shake basket halfway."
-      ],
-      "notes": "Adjust seasoning as needed.",
-      "author": {
-        "name": "Admin"
-      },
-      "rating": {
-        "average": 4.4,
-        "reviews_count": 120
-      },
-      "created_at": "2026-03-23T03:13:36Z"
-    },
-    {
-      "recipe_id": "AFR015",
-      "name": "Fried Rice",
-      "level": "Easy",
-      "diet": "non-veg",
-      "tags": [
-        "protein",
-        "starter"
-      ],
-      "servings": 2,
-      "timing": {
-        "prep_time_minutes": 25,
-        "preheat_time_minutes": 5,
-        "cook_time_minutes": 15,
-        "total_time_minutes": 40
-      },
-      "temperature": {
-        "preheat_celsius": 180,
-        "cook_celsius": 195
-      },
-      "air_fryer": {
-        "model": "Instant Vortex",
-        "power_watts": 1500
-      },
-      "ingredients": [
-        {
-          "name": "Main ingredient",
-          "quantity": 275,
-          "unit": "g"
-        },
-        {
-          "name": "Oil",
-          "quantity": 1,
-          "unit": "tbsp"
-        },
-        {
-          "name": "Salt",
-          "quantity": 0.5,
-          "unit": "tsp"
-        }
-      ],
-      "steps": [
-        {
-          "step_number": 1,
-          "description": "Prepare ingredients."
-        },
-        {
-          "step_number": 2,
-          "description": "Preheat air fryer."
-        },
-        {
-          "step_number": 3,
-          "description": "Cook until done."
-        }
-      ],
-      "media": {
-        "main_image_url": "https://media.istockphoto.com/id/1168754685/photo/fried-rice.jpg"
-      },
-      "nutrition": {
-        "calories": 350,
-        "protein_g": 20,
-        "carbs_g": 35,
-        "fat_g": 23
-      },
-      "tips": [
-        "Shake basket halfway."
-      ],
-      "notes": "Adjust seasoning as needed.",
-      "author": {
-        "name": "Admin"
-      },
-      "rating": {
-        "average": 4.0,
-        "reviews_count": 125
-      },
-      "created_at": "2026-03-23T03:13:36Z"
-    },
-    {
-      "recipe_id": "AFR016",
-      "name": "Noodles",
-      "level": "Medium",
-      "diet": "veg",
-      "tags": [
-        "snack",
-        "quick"
-      ],
-      "servings": 3,
-      "timing": {
-        "prep_time_minutes": 26,
-        "preheat_time_minutes": 5,
-        "cook_time_minutes": 16,
-        "total_time_minutes": 41
-      },
-      "temperature": {
-        "preheat_celsius": 180,
-        "cook_celsius": 196
-      },
-      "air_fryer": {
-        "model": "Philips HD9252",
-        "power_watts": 1400
-      },
-      "ingredients": [
-        {
-          "name": "Main ingredient",
-          "quantity": 280,
-          "unit": "g"
-        },
-        {
-          "name": "Oil",
-          "quantity": 1,
-          "unit": "tbsp"
-        },
-        {
-          "name": "Salt",
-          "quantity": 0.5,
-          "unit": "tsp"
-        }
-      ],
-      "steps": [
-        {
-          "step_number": 1,
-          "description": "Prepare ingredients."
-        },
-        {
-          "step_number": 2,
-          "description": "Preheat air fryer."
-        },
-        {
-          "step_number": 3,
-          "description": "Cook until done."
-        }
-      ],
-      "media": {
-        "main_image_url": "https://media.istockphoto.com/id/1205482281/photo/noodles.jpg"
-      },
-      "nutrition": {
-        "calories": 360,
-        "protein_g": 21,
-        "carbs_g": 36,
-        "fat_g": 24
-      },
-      "tips": [
-        "Shake basket halfway."
-      ],
-      "notes": "Adjust seasoning as needed.",
-      "author": {
-        "name": "Admin"
-      },
-      "rating": {
-        "average": 4.1,
-        "reviews_count": 130
-      },
-      "created_at": "2026-03-23T03:13:36Z"
-    },
-    {
-      "recipe_id": "AFR017",
-      "name": "Omelette",
-      "level": "Medium",
-      "diet": "non-veg",
-      "tags": [
-        "protein",
-        "starter"
-      ],
-      "servings": 4,
-      "timing": {
-        "prep_time_minutes": 27,
-        "preheat_time_minutes": 5,
-        "cook_time_minutes": 17,
-        "total_time_minutes": 42
-      },
-      "temperature": {
-        "preheat_celsius": 180,
-        "cook_celsius": 197
-      },
-      "air_fryer": {
-        "model": "Instant Vortex",
-        "power_watts": 1500
-      },
-      "ingredients": [
-        {
-          "name": "Main ingredient",
-          "quantity": 285,
-          "unit": "g"
-        },
-        {
-          "name": "Oil",
-          "quantity": 1,
-          "unit": "tbsp"
-        },
-        {
-          "name": "Salt",
-          "quantity": 0.5,
-          "unit": "tsp"
-        }
-      ],
-      "steps": [
-        {
-          "step_number": 1,
-          "description": "Prepare ingredients."
-        },
-        {
-          "step_number": 2,
-          "description": "Preheat air fryer."
-        },
-        {
-          "step_number": 3,
-          "description": "Cook until done."
-        }
-      ],
-      "media": {
-        "main_image_url": "https://media.istockphoto.com/id/121212212/photo/omelette.jpg"
-      },
-      "nutrition": {
-        "calories": 370,
-        "protein_g": 22,
-        "carbs_g": 37,
-        "fat_g": 25
-      },
-      "tips": [
-        "Shake basket halfway."
-      ],
-      "notes": "Adjust seasoning as needed.",
-      "author": {
-        "name": "Admin"
-      },
-      "rating": {
-        "average": 4.2,
-        "reviews_count": 135
-      },
-      "created_at": "2026-03-23T03:13:36Z"
-    },
-    {
-      "recipe_id": "AFR018",
-      "name": "Masala Corn",
-      "level": "Easy",
-      "diet": "veg",
-      "tags": [
-        "snack",
-        "quick"
-      ],
-      "servings": 2,
-      "timing": {
-        "prep_time_minutes": 28,
-        "preheat_time_minutes": 5,
-        "cook_time_minutes": 18,
-        "total_time_minutes": 43
-      },
-      "temperature": {
-        "preheat_celsius": 180,
-        "cook_celsius": 198
-      },
-      "air_fryer": {
-        "model": "Philips HD9252",
-        "power_watts": 1400
-      },
-      "ingredients": [
-        {
-          "name": "Main ingredient",
-          "quantity": 290,
-          "unit": "g"
-        },
-        {
-          "name": "Oil",
-          "quantity": 1,
-          "unit": "tbsp"
-        },
-        {
-          "name": "Salt",
-          "quantity": 0.5,
-          "unit": "tsp"
-        }
-      ],
-      "steps": [
-        {
-          "step_number": 1,
-          "description": "Prepare ingredients."
-        },
-        {
-          "step_number": 2,
-          "description": "Preheat air fryer."
-        },
-        {
-          "step_number": 3,
-          "description": "Cook until done."
-        }
-      ],
-      "media": {
-        "main_image_url": "https://media.istockphoto.com/id/1318345726/photo/masala-corn.jpg"
-      },
-      "nutrition": {
-        "calories": 380,
-        "protein_g": 23,
-        "carbs_g": 38,
-        "fat_g": 26
-      },
-      "tips": [
-        "Shake basket halfway."
-      ],
-      "notes": "Adjust seasoning as needed.",
-      "author": {
-        "name": "Admin"
-      },
-      "rating": {
-        "average": 4.3,
-        "reviews_count": 140
-      },
-      "created_at": "2026-03-23T03:13:36Z"
-    },
-    {
-      "recipe_id": "AFR019",
-      "name": "Stuffed Mushrooms",
-      "level": "Medium",
-      "diet": "non-veg",
-      "tags": [
-        "protein",
-        "starter"
-      ],
-      "servings": 3,
-      "timing": {
-        "prep_time_minutes": 29,
-        "preheat_time_minutes": 5,
-        "cook_time_minutes": 19,
-        "total_time_minutes": 44
-      },
-      "temperature": {
-        "preheat_celsius": 180,
-        "cook_celsius": 199
-      },
-      "air_fryer": {
-        "model": "Instant Vortex",
-        "power_watts": 1500
-      },
-      "ingredients": [
-        {
-          "name": "Main ingredient",
-          "quantity": 295,
-          "unit": "g"
-        },
-        {
-          "name": "Oil",
-          "quantity": 1,
-          "unit": "tbsp"
-        },
-        {
-          "name": "Salt",
-          "quantity": 0.5,
-          "unit": "tsp"
-        }
-      ],
-      "steps": [
-        {
-          "step_number": 1,
-          "description": "Prepare ingredients."
-        },
-        {
-          "step_number": 2,
-          "description": "Preheat air fryer."
-        },
-        {
-          "step_number": 3,
-          "description": "Cook until done."
-        }
-      ],
-      "media": {
-        "main_image_url": "https://media.istockphoto.com/id/1189271874/photo/stuffed-mushrooms.jpg"
-      },
-      "nutrition": {
-        "calories": 390,
-        "protein_g": 24,
-        "carbs_g": 39,
-        "fat_g": 27
-      },
-      "tips": [
-        "Shake basket halfway."
-      ],
-      "notes": "Adjust seasoning as needed.",
-      "author": {
-        "name": "Admin"
-      },
-      "rating": {
-        "average": 4.4,
-        "reviews_count": 145
-      },
-      "created_at": "2026-03-23T03:13:36Z"
-    },
-    {
-      "recipe_id": "AFR020",
-      "name": "Veg Kebabs",
-      "level": "Medium",
-      "diet": "veg",
-      "tags": [
-        "snack",
-        "quick"
-      ],
-      "servings": 4,
-      "timing": {
-        "prep_time_minutes": 30,
-        "preheat_time_minutes": 5,
-        "cook_time_minutes": 10,
-        "total_time_minutes": 45
-      },
-      "temperature": {
-        "preheat_celsius": 180,
-        "cook_celsius": 180
-      },
-      "air_fryer": {
-        "model": "Philips HD9252",
-        "power_watts": 1400
-      },
-      "ingredients": [
-        {
-          "name": "Main ingredient",
-          "quantity": 300,
-          "unit": "g"
-        },
-        {
-          "name": "Oil",
-          "quantity": 1,
-          "unit": "tbsp"
-        },
-        {
-          "name": "Salt",
-          "quantity": 0.5,
-          "unit": "tsp"
-        }
-      ],
-      "steps": [
-        {
-          "step_number": 1,
-          "description": "Prepare ingredients."
-        },
-        {
-          "step_number": 2,
-          "description": "Preheat air fryer."
-        },
-        {
-          "step_number": 3,
-          "description": "Cook until done."
-        }
-      ],
-      "media": {
-        "main_image_url": "https://media.istockphoto.com/id/1154897283/photo/veg-kebabs.jpg"
-      },
-      "nutrition": {
-        "calories": 400,
-        "protein_g": 25,
-        "carbs_g": 40,
-        "fat_g": 28
-      },
-      "tips": [
-        "Shake basket halfway."
-      ],
-      "notes": "Adjust seasoning as needed.",
-      "author": {
-        "name": "Admin"
-      },
-      "rating": {
-        "average": 4.0,
-        "reviews_count": 150
-      },
-      "created_at": "2026-03-23T03:13:36Z"
-    }
-  ]
+    ]
 }
