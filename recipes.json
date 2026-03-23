@@ -4,2652 +4,1542 @@
     {
       "recipe_id": "AFR001",
       "name": "French Fries",
-      "cuisine": "Global",
-      "level": "Easy",
-      "difficulty_score": 1,
-      "diet": "veg",
+      "level": "Medium",
+      "diet": "non-veg",
       "tags": [
-        "quick",
-        "home"
+        "protein",
+        "starter"
       ],
-      "servings": 2,
-      "equipment_required": [
-        "air fryer"
-      ],
+      "servings": 3,
       "timing": {
-        "prep_time_minutes": 10,
-        "cook_time_minutes": 10,
-        "total_time_minutes": 25
+        "prep_time_minutes": 11,
+        "preheat_time_minutes": 5,
+        "cook_time_minutes": 11,
+        "total_time_minutes": 26
       },
       "temperature": {
-        "cook_celsius": 180
+        "preheat_celsius": 180,
+        "cook_celsius": 181
+      },
+      "air_fryer": {
+        "model": "Instant Vortex",
+        "power_watts": 1500
       },
       "ingredients": [
         {
-          "name": "Main Ingredient",
+          "name": "Main ingredient",
+          "quantity": 205,
+          "unit": "g"
+        },
+        {
+          "name": "Oil",
           "quantity": 1,
-          "unit": "portion"
+          "unit": "tbsp"
+        },
+        {
+          "name": "Salt",
+          "quantity": 0.5,
+          "unit": "tsp"
         }
       ],
       "steps": [
         {
           "step_number": 1,
-          "description": "Prepare ingredients"
+          "description": "Prepare ingredients."
         },
         {
           "step_number": 2,
-          "description": "Cook in air fryer"
+          "description": "Preheat air fryer."
+        },
+        {
+          "step_number": 3,
+          "description": "Cook until done."
         }
       ],
       "media": {
-        "main_image_url": "https://source.unsplash.com/600x400/?French-Fries"
+        "main_image_url": "https://media.istockphoto.com/id/1443993866/photo/french-fries-with-ketchup.jpg"
       },
       "nutrition": {
-        "calories": 200
+        "calories": 210,
+        "protein_g": 6,
+        "carbs_g": 21,
+        "fat_g": 9
       },
+      "tips": [
+        "Shake basket halfway."
+      ],
+      "notes": "Adjust seasoning as needed.",
       "author": {
         "name": "Admin"
       },
       "rating": {
-        "average": 4.0
-      }
+        "average": 4.1,
+        "reviews_count": 55
+      },
+      "created_at": "2026-03-23T03:13:36Z"
     },
     {
       "recipe_id": "AFR002",
       "name": "Chicken Wings",
-      "cuisine": "Global",
       "level": "Medium",
-      "difficulty_score": 2,
-      "diet": "non-veg",
+      "diet": "veg",
       "tags": [
-        "quick",
-        "home"
+        "snack",
+        "quick"
       ],
-      "servings": 3,
-      "equipment_required": [
-        "air fryer"
-      ],
+      "servings": 4,
       "timing": {
-        "prep_time_minutes": 11,
-        "cook_time_minutes": 11,
-        "total_time_minutes": 26
+        "prep_time_minutes": 12,
+        "preheat_time_minutes": 5,
+        "cook_time_minutes": 12,
+        "total_time_minutes": 27
       },
       "temperature": {
-        "cook_celsius": 181
+        "preheat_celsius": 180,
+        "cook_celsius": 182
+      },
+      "air_fryer": {
+        "model": "Philips HD9252",
+        "power_watts": 1400
       },
       "ingredients": [
         {
-          "name": "Main Ingredient",
+          "name": "Main ingredient",
+          "quantity": 210,
+          "unit": "g"
+        },
+        {
+          "name": "Oil",
           "quantity": 1,
-          "unit": "portion"
+          "unit": "tbsp"
+        },
+        {
+          "name": "Salt",
+          "quantity": 0.5,
+          "unit": "tsp"
         }
       ],
       "steps": [
         {
           "step_number": 1,
-          "description": "Prepare ingredients"
+          "description": "Prepare ingredients."
         },
         {
           "step_number": 2,
-          "description": "Cook in air fryer"
+          "description": "Preheat air fryer."
+        },
+        {
+          "step_number": 3,
+          "description": "Cook until done."
         }
       ],
       "media": {
-        "main_image_url": "https://source.unsplash.com/600x400/?Chicken-Wings"
+        "main_image_url": "https://media.istockphoto.com/id/835903320/photo/baked-chicken-wings.jpg"
       },
       "nutrition": {
-        "calories": 205
+        "calories": 220,
+        "protein_g": 7,
+        "carbs_g": 22,
+        "fat_g": 10
       },
+      "tips": [
+        "Shake basket halfway."
+      ],
+      "notes": "Adjust seasoning as needed.",
       "author": {
         "name": "Admin"
       },
       "rating": {
-        "average": 4.1
-      }
+        "average": 4.2,
+        "reviews_count": 60
+      },
+      "created_at": "2026-03-23T03:13:36Z"
     },
     {
       "recipe_id": "AFR003",
       "name": "Paneer Tikka",
-      "cuisine": "Global",
-      "level": "Medium",
-      "difficulty_score": 3,
-      "diet": "veg",
+      "level": "Easy",
+      "diet": "non-veg",
       "tags": [
-        "quick",
-        "home"
+        "protein",
+        "starter"
       ],
-      "servings": 4,
-      "equipment_required": [
-        "air fryer"
-      ],
+      "servings": 2,
       "timing": {
-        "prep_time_minutes": 12,
-        "cook_time_minutes": 12,
-        "total_time_minutes": 27
+        "prep_time_minutes": 13,
+        "preheat_time_minutes": 5,
+        "cook_time_minutes": 13,
+        "total_time_minutes": 28
       },
       "temperature": {
-        "cook_celsius": 182
+        "preheat_celsius": 180,
+        "cook_celsius": 183
+      },
+      "air_fryer": {
+        "model": "Instant Vortex",
+        "power_watts": 1500
       },
       "ingredients": [
         {
-          "name": "Main Ingredient",
+          "name": "Main ingredient",
+          "quantity": 215,
+          "unit": "g"
+        },
+        {
+          "name": "Oil",
           "quantity": 1,
-          "unit": "portion"
+          "unit": "tbsp"
+        },
+        {
+          "name": "Salt",
+          "quantity": 0.5,
+          "unit": "tsp"
         }
       ],
       "steps": [
         {
           "step_number": 1,
-          "description": "Prepare ingredients"
+          "description": "Prepare ingredients."
         },
         {
           "step_number": 2,
-          "description": "Cook in air fryer"
+          "description": "Preheat air fryer."
+        },
+        {
+          "step_number": 3,
+          "description": "Cook until done."
         }
       ],
       "media": {
-        "main_image_url": "https://source.unsplash.com/600x400/?Paneer-Tikka"
+        "main_image_url": "https://media.istockphoto.com/id/1411191106/photo/paneer-tikka.jpg"
       },
       "nutrition": {
-        "calories": 210
+        "calories": 230,
+        "protein_g": 8,
+        "carbs_g": 23,
+        "fat_g": 11
       },
+      "tips": [
+        "Shake basket halfway."
+      ],
+      "notes": "Adjust seasoning as needed.",
       "author": {
         "name": "Admin"
       },
       "rating": {
-        "average": 4.2
-      }
+        "average": 4.3,
+        "reviews_count": 65
+      },
+      "created_at": "2026-03-23T03:13:36Z"
     },
     {
       "recipe_id": "AFR004",
       "name": "Samosa",
-      "cuisine": "Global",
-      "level": "Easy",
-      "difficulty_score": 4,
-      "diet": "non-veg",
+      "level": "Medium",
+      "diet": "veg",
       "tags": [
-        "quick",
-        "home"
+        "snack",
+        "quick"
       ],
-      "servings": 2,
-      "equipment_required": [
-        "air fryer"
-      ],
+      "servings": 3,
       "timing": {
-        "prep_time_minutes": 13,
-        "cook_time_minutes": 13,
-        "total_time_minutes": 28
+        "prep_time_minutes": 14,
+        "preheat_time_minutes": 5,
+        "cook_time_minutes": 14,
+        "total_time_minutes": 29
       },
       "temperature": {
-        "cook_celsius": 183
+        "preheat_celsius": 180,
+        "cook_celsius": 184
+      },
+      "air_fryer": {
+        "model": "Philips HD9252",
+        "power_watts": 1400
       },
       "ingredients": [
         {
-          "name": "Main Ingredient",
+          "name": "Main ingredient",
+          "quantity": 220,
+          "unit": "g"
+        },
+        {
+          "name": "Oil",
           "quantity": 1,
-          "unit": "portion"
+          "unit": "tbsp"
+        },
+        {
+          "name": "Salt",
+          "quantity": 0.5,
+          "unit": "tsp"
         }
       ],
       "steps": [
         {
           "step_number": 1,
-          "description": "Prepare ingredients"
+          "description": "Prepare ingredients."
         },
         {
           "step_number": 2,
-          "description": "Cook in air fryer"
+          "description": "Preheat air fryer."
+        },
+        {
+          "step_number": 3,
+          "description": "Cook until done."
         }
       ],
       "media": {
-        "main_image_url": "https://source.unsplash.com/600x400/?Samosa"
+        "main_image_url": "https://media.istockphoto.com/id/2148933061/photo/samosa.jpg"
       },
       "nutrition": {
-        "calories": 215
+        "calories": 240,
+        "protein_g": 9,
+        "carbs_g": 24,
+        "fat_g": 12
       },
+      "tips": [
+        "Shake basket halfway."
+      ],
+      "notes": "Adjust seasoning as needed.",
       "author": {
         "name": "Admin"
       },
       "rating": {
-        "average": 4.3
-      }
+        "average": 4.4,
+        "reviews_count": 70
+      },
+      "created_at": "2026-03-23T03:13:36Z"
     },
     {
       "recipe_id": "AFR005",
-      "name": "Pizza",
-      "cuisine": "Global",
+      "name": "Chicken Nuggets",
       "level": "Medium",
-      "difficulty_score": 5,
-      "diet": "veg",
+      "diet": "non-veg",
       "tags": [
-        "quick",
-        "home"
+        "protein",
+        "starter"
       ],
-      "servings": 3,
-      "equipment_required": [
-        "air fryer"
-      ],
+      "servings": 4,
       "timing": {
-        "prep_time_minutes": 14,
-        "cook_time_minutes": 14,
-        "total_time_minutes": 29
+        "prep_time_minutes": 15,
+        "preheat_time_minutes": 5,
+        "cook_time_minutes": 15,
+        "total_time_minutes": 30
       },
       "temperature": {
-        "cook_celsius": 184
+        "preheat_celsius": 180,
+        "cook_celsius": 185
+      },
+      "air_fryer": {
+        "model": "Instant Vortex",
+        "power_watts": 1500
       },
       "ingredients": [
         {
-          "name": "Main Ingredient",
+          "name": "Main ingredient",
+          "quantity": 225,
+          "unit": "g"
+        },
+        {
+          "name": "Oil",
           "quantity": 1,
-          "unit": "portion"
+          "unit": "tbsp"
+        },
+        {
+          "name": "Salt",
+          "quantity": 0.5,
+          "unit": "tsp"
         }
       ],
       "steps": [
         {
           "step_number": 1,
-          "description": "Prepare ingredients"
+          "description": "Prepare ingredients."
         },
         {
           "step_number": 2,
-          "description": "Cook in air fryer"
+          "description": "Preheat air fryer."
+        },
+        {
+          "step_number": 3,
+          "description": "Cook until done."
         }
       ],
       "media": {
-        "main_image_url": "https://source.unsplash.com/600x400/?Pizza"
+        "main_image_url": "https://media.istockphoto.com/id/470177926/photo/chicken-nuggets.jpg"
       },
       "nutrition": {
-        "calories": 220
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 25,
+        "fat_g": 13
       },
+      "tips": [
+        "Shake basket halfway."
+      ],
+      "notes": "Adjust seasoning as needed.",
       "author": {
         "name": "Admin"
       },
       "rating": {
-        "average": 4.4
-      }
+        "average": 4.0,
+        "reviews_count": 75
+      },
+      "created_at": "2026-03-23T03:13:36Z"
     },
     {
       "recipe_id": "AFR006",
-      "name": "Grilled Sandwich",
-      "cuisine": "Global",
-      "level": "Medium",
-      "difficulty_score": 1,
-      "diet": "non-veg",
+      "name": "Roasted Vegetables",
+      "level": "Easy",
+      "diet": "veg",
       "tags": [
-        "quick",
-        "home"
+        "snack",
+        "quick"
       ],
-      "servings": 4,
-      "equipment_required": [
-        "air fryer"
-      ],
+      "servings": 2,
       "timing": {
-        "prep_time_minutes": 15,
-        "cook_time_minutes": 15,
-        "total_time_minutes": 30
+        "prep_time_minutes": 16,
+        "preheat_time_minutes": 5,
+        "cook_time_minutes": 16,
+        "total_time_minutes": 31
       },
       "temperature": {
-        "cook_celsius": 185
+        "preheat_celsius": 180,
+        "cook_celsius": 186
+      },
+      "air_fryer": {
+        "model": "Philips HD9252",
+        "power_watts": 1400
       },
       "ingredients": [
         {
-          "name": "Main Ingredient",
+          "name": "Main ingredient",
+          "quantity": 230,
+          "unit": "g"
+        },
+        {
+          "name": "Oil",
           "quantity": 1,
-          "unit": "portion"
+          "unit": "tbsp"
+        },
+        {
+          "name": "Salt",
+          "quantity": 0.5,
+          "unit": "tsp"
         }
       ],
       "steps": [
         {
           "step_number": 1,
-          "description": "Prepare ingredients"
+          "description": "Prepare ingredients."
         },
         {
           "step_number": 2,
-          "description": "Cook in air fryer"
+          "description": "Preheat air fryer."
+        },
+        {
+          "step_number": 3,
+          "description": "Cook until done."
         }
       ],
       "media": {
-        "main_image_url": "https://source.unsplash.com/600x400/?Grilled-Sandwich"
+        "main_image_url": "https://media.istockphoto.com/id/1134749964/photo/roasted-vegetables.jpg"
       },
       "nutrition": {
-        "calories": 225
+        "calories": 260,
+        "protein_g": 11,
+        "carbs_g": 26,
+        "fat_g": 14
       },
+      "tips": [
+        "Shake basket halfway."
+      ],
+      "notes": "Adjust seasoning as needed.",
       "author": {
         "name": "Admin"
       },
       "rating": {
-        "average": 4.5
-      }
+        "average": 4.1,
+        "reviews_count": 80
+      },
+      "created_at": "2026-03-23T03:13:36Z"
     },
     {
       "recipe_id": "AFR007",
-      "name": "Burger",
-      "cuisine": "Global",
-      "level": "Easy",
-      "difficulty_score": 2,
-      "diet": "veg",
+      "name": "Fish Fry",
+      "level": "Medium",
+      "diet": "non-veg",
       "tags": [
-        "quick",
-        "home"
+        "protein",
+        "starter"
       ],
-      "servings": 2,
-      "equipment_required": [
-        "air fryer"
-      ],
+      "servings": 3,
       "timing": {
-        "prep_time_minutes": 16,
-        "cook_time_minutes": 16,
-        "total_time_minutes": 31
+        "prep_time_minutes": 17,
+        "preheat_time_minutes": 5,
+        "cook_time_minutes": 17,
+        "total_time_minutes": 32
       },
       "temperature": {
-        "cook_celsius": 186
+        "preheat_celsius": 180,
+        "cook_celsius": 187
+      },
+      "air_fryer": {
+        "model": "Instant Vortex",
+        "power_watts": 1500
       },
       "ingredients": [
         {
-          "name": "Main Ingredient",
+          "name": "Main ingredient",
+          "quantity": 235,
+          "unit": "g"
+        },
+        {
+          "name": "Oil",
           "quantity": 1,
-          "unit": "portion"
+          "unit": "tbsp"
+        },
+        {
+          "name": "Salt",
+          "quantity": 0.5,
+          "unit": "tsp"
         }
       ],
       "steps": [
         {
           "step_number": 1,
-          "description": "Prepare ingredients"
+          "description": "Prepare ingredients."
         },
         {
           "step_number": 2,
-          "description": "Cook in air fryer"
+          "description": "Preheat air fryer."
+        },
+        {
+          "step_number": 3,
+          "description": "Cook until done."
         }
       ],
       "media": {
-        "main_image_url": "https://source.unsplash.com/600x400/?Burger"
+        "main_image_url": "https://media.istockphoto.com/id/1309353866/photo/fish-fry.jpg"
       },
       "nutrition": {
-        "calories": 230
+        "calories": 270,
+        "protein_g": 12,
+        "carbs_g": 27,
+        "fat_g": 15
       },
+      "tips": [
+        "Shake basket halfway."
+      ],
+      "notes": "Adjust seasoning as needed.",
       "author": {
         "name": "Admin"
       },
       "rating": {
-        "average": 4.6
-      }
+        "average": 4.2,
+        "reviews_count": 85
+      },
+      "created_at": "2026-03-23T03:13:36Z"
     },
     {
       "recipe_id": "AFR008",
-      "name": "Pasta",
-      "cuisine": "Global",
+      "name": "Spring Rolls",
       "level": "Medium",
-      "difficulty_score": 3,
-      "diet": "non-veg",
+      "diet": "veg",
       "tags": [
-        "quick",
-        "home"
+        "snack",
+        "quick"
       ],
-      "servings": 3,
-      "equipment_required": [
-        "air fryer"
-      ],
+      "servings": 4,
       "timing": {
-        "prep_time_minutes": 17,
-        "cook_time_minutes": 17,
-        "total_time_minutes": 32
+        "prep_time_minutes": 18,
+        "preheat_time_minutes": 5,
+        "cook_time_minutes": 18,
+        "total_time_minutes": 33
       },
       "temperature": {
-        "cook_celsius": 187
+        "preheat_celsius": 180,
+        "cook_celsius": 188
+      },
+      "air_fryer": {
+        "model": "Philips HD9252",
+        "power_watts": 1400
       },
       "ingredients": [
         {
-          "name": "Main Ingredient",
+          "name": "Main ingredient",
+          "quantity": 240,
+          "unit": "g"
+        },
+        {
+          "name": "Oil",
           "quantity": 1,
-          "unit": "portion"
+          "unit": "tbsp"
+        },
+        {
+          "name": "Salt",
+          "quantity": 0.5,
+          "unit": "tsp"
         }
       ],
       "steps": [
         {
           "step_number": 1,
-          "description": "Prepare ingredients"
+          "description": "Prepare ingredients."
         },
         {
           "step_number": 2,
-          "description": "Cook in air fryer"
+          "description": "Preheat air fryer."
+        },
+        {
+          "step_number": 3,
+          "description": "Cook until done."
         }
       ],
       "media": {
-        "main_image_url": "https://source.unsplash.com/600x400/?Pasta"
+        "main_image_url": "https://media.istockphoto.com/id/1371154829/photo/spring-rolls.jpg"
       },
       "nutrition": {
-        "calories": 235
+        "calories": 280,
+        "protein_g": 13,
+        "carbs_g": 28,
+        "fat_g": 16
       },
+      "tips": [
+        "Shake basket halfway."
+      ],
+      "notes": "Adjust seasoning as needed.",
       "author": {
         "name": "Admin"
       },
       "rating": {
-        "average": 4.7
-      }
+        "average": 4.3,
+        "reviews_count": 90
+      },
+      "created_at": "2026-03-23T03:13:36Z"
     },
     {
       "recipe_id": "AFR009",
-      "name": "Fish Fry",
-      "cuisine": "Global",
-      "level": "Medium",
-      "difficulty_score": 4,
-      "diet": "veg",
+      "name": "Pizza",
+      "level": "Easy",
+      "diet": "non-veg",
       "tags": [
-        "quick",
-        "home"
+        "protein",
+        "starter"
       ],
-      "servings": 4,
-      "equipment_required": [
-        "air fryer"
-      ],
+      "servings": 2,
       "timing": {
-        "prep_time_minutes": 18,
-        "cook_time_minutes": 18,
-        "total_time_minutes": 33
+        "prep_time_minutes": 19,
+        "preheat_time_minutes": 5,
+        "cook_time_minutes": 19,
+        "total_time_minutes": 34
       },
       "temperature": {
-        "cook_celsius": 188
+        "preheat_celsius": 180,
+        "cook_celsius": 189
+      },
+      "air_fryer": {
+        "model": "Instant Vortex",
+        "power_watts": 1500
       },
       "ingredients": [
         {
-          "name": "Main Ingredient",
+          "name": "Main ingredient",
+          "quantity": 245,
+          "unit": "g"
+        },
+        {
+          "name": "Oil",
           "quantity": 1,
-          "unit": "portion"
+          "unit": "tbsp"
+        },
+        {
+          "name": "Salt",
+          "quantity": 0.5,
+          "unit": "tsp"
         }
       ],
       "steps": [
         {
           "step_number": 1,
-          "description": "Prepare ingredients"
+          "description": "Prepare ingredients."
         },
         {
           "step_number": 2,
-          "description": "Cook in air fryer"
+          "description": "Preheat air fryer."
+        },
+        {
+          "step_number": 3,
+          "description": "Cook until done."
         }
       ],
       "media": {
-        "main_image_url": "https://source.unsplash.com/600x400/?Fish-Fry"
+        "main_image_url": "https://media.istockphoto.com/id/187248625/photo/pizza.jpg"
       },
       "nutrition": {
-        "calories": 240
+        "calories": 290,
+        "protein_g": 14,
+        "carbs_g": 29,
+        "fat_g": 17
       },
+      "tips": [
+        "Shake basket halfway."
+      ],
+      "notes": "Adjust seasoning as needed.",
       "author": {
         "name": "Admin"
       },
       "rating": {
-        "average": 4.8
-      }
+        "average": 4.4,
+        "reviews_count": 95
+      },
+      "created_at": "2026-03-23T03:13:36Z"
     },
     {
       "recipe_id": "AFR010",
-      "name": "Chicken Nuggets",
-      "cuisine": "Global",
-      "level": "Easy",
-      "difficulty_score": 5,
-      "diet": "non-veg",
+      "name": "Chocolate Cake",
+      "level": "Medium",
+      "diet": "veg",
       "tags": [
-        "quick",
-        "home"
+        "snack",
+        "quick"
       ],
-      "servings": 2,
-      "equipment_required": [
-        "air fryer"
-      ],
+      "servings": 3,
       "timing": {
-        "prep_time_minutes": 19,
-        "cook_time_minutes": 19,
-        "total_time_minutes": 34
+        "prep_time_minutes": 20,
+        "preheat_time_minutes": 5,
+        "cook_time_minutes": 10,
+        "total_time_minutes": 35
       },
       "temperature": {
-        "cook_celsius": 189
+        "preheat_celsius": 180,
+        "cook_celsius": 190
+      },
+      "air_fryer": {
+        "model": "Philips HD9252",
+        "power_watts": 1400
       },
       "ingredients": [
         {
-          "name": "Main Ingredient",
+          "name": "Main ingredient",
+          "quantity": 250,
+          "unit": "g"
+        },
+        {
+          "name": "Oil",
           "quantity": 1,
-          "unit": "portion"
+          "unit": "tbsp"
+        },
+        {
+          "name": "Salt",
+          "quantity": 0.5,
+          "unit": "tsp"
         }
       ],
       "steps": [
         {
           "step_number": 1,
-          "description": "Prepare ingredients"
+          "description": "Prepare ingredients."
         },
         {
           "step_number": 2,
-          "description": "Cook in air fryer"
+          "description": "Preheat air fryer."
+        },
+        {
+          "step_number": 3,
+          "description": "Cook until done."
         }
       ],
       "media": {
-        "main_image_url": "https://source.unsplash.com/600x400/?Chicken-Nuggets"
+        "main_image_url": "https://media.istockphoto.com/id/1370520449/photo/chocolate-cake.jpg"
       },
       "nutrition": {
-        "calories": 245
+        "calories": 300,
+        "protein_g": 15,
+        "carbs_g": 30,
+        "fat_g": 18
       },
+      "tips": [
+        "Shake basket halfway."
+      ],
+      "notes": "Adjust seasoning as needed.",
       "author": {
         "name": "Admin"
       },
       "rating": {
-        "average": 4.9
-      }
+        "average": 4.0,
+        "reviews_count": 100
+      },
+      "created_at": "2026-03-23T03:13:36Z"
     },
     {
       "recipe_id": "AFR011",
-      "name": "Spring Rolls",
-      "cuisine": "Global",
+      "name": "Garlic Bread",
       "level": "Medium",
-      "difficulty_score": 1,
-      "diet": "veg",
+      "diet": "non-veg",
       "tags": [
-        "quick",
-        "home"
+        "protein",
+        "starter"
       ],
-      "servings": 3,
-      "equipment_required": [
-        "air fryer"
-      ],
+      "servings": 4,
       "timing": {
-        "prep_time_minutes": 10,
-        "cook_time_minutes": 20,
-        "total_time_minutes": 35
+        "prep_time_minutes": 21,
+        "preheat_time_minutes": 5,
+        "cook_time_minutes": 11,
+        "total_time_minutes": 36
       },
       "temperature": {
-        "cook_celsius": 190
+        "preheat_celsius": 180,
+        "cook_celsius": 191
+      },
+      "air_fryer": {
+        "model": "Instant Vortex",
+        "power_watts": 1500
       },
       "ingredients": [
         {
-          "name": "Main Ingredient",
+          "name": "Main ingredient",
+          "quantity": 255,
+          "unit": "g"
+        },
+        {
+          "name": "Oil",
           "quantity": 1,
-          "unit": "portion"
+          "unit": "tbsp"
+        },
+        {
+          "name": "Salt",
+          "quantity": 0.5,
+          "unit": "tsp"
         }
       ],
       "steps": [
         {
           "step_number": 1,
-          "description": "Prepare ingredients"
+          "description": "Prepare ingredients."
         },
         {
           "step_number": 2,
-          "description": "Cook in air fryer"
+          "description": "Preheat air fryer."
+        },
+        {
+          "step_number": 3,
+          "description": "Cook until done."
         }
       ],
       "media": {
-        "main_image_url": "https://source.unsplash.com/600x400/?Spring-Rolls"
+        "main_image_url": "https://media.istockphoto.com/id/1193993516/photo/garlic-bread.jpg"
       },
       "nutrition": {
-        "calories": 250
+        "calories": 310,
+        "protein_g": 16,
+        "carbs_g": 31,
+        "fat_g": 19
       },
+      "tips": [
+        "Shake basket halfway."
+      ],
+      "notes": "Adjust seasoning as needed.",
       "author": {
         "name": "Admin"
       },
       "rating": {
-        "average": 4.0
-      }
+        "average": 4.1,
+        "reviews_count": 105
+      },
+      "created_at": "2026-03-23T03:13:36Z"
     },
     {
       "recipe_id": "AFR012",
-      "name": "Chocolate Cake",
-      "cuisine": "Global",
-      "level": "Medium",
-      "difficulty_score": 2,
-      "diet": "non-veg",
+      "name": "Veg Cutlet",
+      "level": "Easy",
+      "diet": "veg",
       "tags": [
-        "quick",
-        "home"
+        "snack",
+        "quick"
       ],
-      "servings": 4,
-      "equipment_required": [
-        "air fryer"
-      ],
+      "servings": 2,
       "timing": {
-        "prep_time_minutes": 11,
-        "cook_time_minutes": 21,
-        "total_time_minutes": 36
+        "prep_time_minutes": 22,
+        "preheat_time_minutes": 5,
+        "cook_time_minutes": 12,
+        "total_time_minutes": 37
       },
       "temperature": {
-        "cook_celsius": 191
+        "preheat_celsius": 180,
+        "cook_celsius": 192
+      },
+      "air_fryer": {
+        "model": "Philips HD9252",
+        "power_watts": 1400
       },
       "ingredients": [
         {
-          "name": "Main Ingredient",
+          "name": "Main ingredient",
+          "quantity": 260,
+          "unit": "g"
+        },
+        {
+          "name": "Oil",
           "quantity": 1,
-          "unit": "portion"
+          "unit": "tbsp"
+        },
+        {
+          "name": "Salt",
+          "quantity": 0.5,
+          "unit": "tsp"
         }
       ],
       "steps": [
         {
           "step_number": 1,
-          "description": "Prepare ingredients"
+          "description": "Prepare ingredients."
         },
         {
           "step_number": 2,
-          "description": "Cook in air fryer"
+          "description": "Preheat air fryer."
+        },
+        {
+          "step_number": 3,
+          "description": "Cook until done."
         }
       ],
       "media": {
-        "main_image_url": "https://source.unsplash.com/600x400/?Chocolate-Cake"
+        "main_image_url": "https://media.istockphoto.com/id/1211041276/photo/veg-cutlet.jpg"
       },
       "nutrition": {
-        "calories": 255
+        "calories": 320,
+        "protein_g": 17,
+        "carbs_g": 32,
+        "fat_g": 20
       },
+      "tips": [
+        "Shake basket halfway."
+      ],
+      "notes": "Adjust seasoning as needed.",
       "author": {
         "name": "Admin"
       },
       "rating": {
-        "average": 4.1
-      }
+        "average": 4.2,
+        "reviews_count": 110
+      },
+      "created_at": "2026-03-23T03:13:36Z"
     },
     {
       "recipe_id": "AFR013",
-      "name": "Brownie",
-      "cuisine": "Global",
-      "level": "Easy",
-      "difficulty_score": 3,
-      "diet": "veg",
+      "name": "Tandoori Chicken",
+      "level": "Medium",
+      "diet": "non-veg",
       "tags": [
-        "quick",
-        "home"
+        "protein",
+        "starter"
       ],
-      "servings": 2,
-      "equipment_required": [
-        "air fryer"
-      ],
+      "servings": 3,
       "timing": {
-        "prep_time_minutes": 12,
-        "cook_time_minutes": 22,
-        "total_time_minutes": 37
+        "prep_time_minutes": 23,
+        "preheat_time_minutes": 5,
+        "cook_time_minutes": 13,
+        "total_time_minutes": 38
       },
       "temperature": {
-        "cook_celsius": 192
+        "preheat_celsius": 180,
+        "cook_celsius": 193
+      },
+      "air_fryer": {
+        "model": "Instant Vortex",
+        "power_watts": 1500
       },
       "ingredients": [
         {
-          "name": "Main Ingredient",
+          "name": "Main ingredient",
+          "quantity": 265,
+          "unit": "g"
+        },
+        {
+          "name": "Oil",
           "quantity": 1,
-          "unit": "portion"
+          "unit": "tbsp"
+        },
+        {
+          "name": "Salt",
+          "quantity": 0.5,
+          "unit": "tsp"
         }
       ],
       "steps": [
         {
           "step_number": 1,
-          "description": "Prepare ingredients"
+          "description": "Prepare ingredients."
         },
         {
           "step_number": 2,
-          "description": "Cook in air fryer"
+          "description": "Preheat air fryer."
+        },
+        {
+          "step_number": 3,
+          "description": "Cook until done."
         }
       ],
       "media": {
-        "main_image_url": "https://source.unsplash.com/600x400/?Brownie"
+        "main_image_url": "https://media.istockphoto.com/id/1292563627/photo/tandoori-chicken.jpg"
       },
       "nutrition": {
-        "calories": 260
+        "calories": 330,
+        "protein_g": 18,
+        "carbs_g": 33,
+        "fat_g": 21
       },
+      "tips": [
+        "Shake basket halfway."
+      ],
+      "notes": "Adjust seasoning as needed.",
       "author": {
         "name": "Admin"
       },
       "rating": {
-        "average": 4.2
-      }
+        "average": 4.3,
+        "reviews_count": 115
+      },
+      "created_at": "2026-03-23T03:13:36Z"
     },
     {
       "recipe_id": "AFR014",
-      "name": "Garlic Bread",
-      "cuisine": "Global",
+      "name": "Paneer Wrap",
       "level": "Medium",
-      "difficulty_score": 4,
-      "diet": "non-veg",
+      "diet": "veg",
       "tags": [
-        "quick",
-        "home"
+        "snack",
+        "quick"
       ],
-      "servings": 3,
-      "equipment_required": [
-        "air fryer"
-      ],
+      "servings": 4,
       "timing": {
-        "prep_time_minutes": 13,
-        "cook_time_minutes": 23,
-        "total_time_minutes": 38
+        "prep_time_minutes": 24,
+        "preheat_time_minutes": 5,
+        "cook_time_minutes": 14,
+        "total_time_minutes": 39
       },
       "temperature": {
-        "cook_celsius": 193
+        "preheat_celsius": 180,
+        "cook_celsius": 194
+      },
+      "air_fryer": {
+        "model": "Philips HD9252",
+        "power_watts": 1400
       },
       "ingredients": [
         {
-          "name": "Main Ingredient",
+          "name": "Main ingredient",
+          "quantity": 270,
+          "unit": "g"
+        },
+        {
+          "name": "Oil",
           "quantity": 1,
-          "unit": "portion"
+          "unit": "tbsp"
+        },
+        {
+          "name": "Salt",
+          "quantity": 0.5,
+          "unit": "tsp"
         }
       ],
       "steps": [
         {
           "step_number": 1,
-          "description": "Prepare ingredients"
+          "description": "Prepare ingredients."
         },
         {
           "step_number": 2,
-          "description": "Cook in air fryer"
+          "description": "Preheat air fryer."
+        },
+        {
+          "step_number": 3,
+          "description": "Cook until done."
         }
       ],
       "media": {
-        "main_image_url": "https://source.unsplash.com/600x400/?Garlic-Bread"
+        "main_image_url": "https://media.istockphoto.com/id/1205482293/photo/paneer-wrap.jpg"
       },
       "nutrition": {
-        "calories": 265
+        "calories": 340,
+        "protein_g": 19,
+        "carbs_g": 34,
+        "fat_g": 22
       },
+      "tips": [
+        "Shake basket halfway."
+      ],
+      "notes": "Adjust seasoning as needed.",
       "author": {
         "name": "Admin"
       },
       "rating": {
-        "average": 4.3
-      }
+        "average": 4.4,
+        "reviews_count": 120
+      },
+      "created_at": "2026-03-23T03:13:36Z"
     },
     {
       "recipe_id": "AFR015",
-      "name": "Veg Cutlet",
-      "cuisine": "Global",
-      "level": "Medium",
-      "difficulty_score": 5,
-      "diet": "veg",
+      "name": "Fried Rice",
+      "level": "Easy",
+      "diet": "non-veg",
       "tags": [
-        "quick",
-        "home"
+        "protein",
+        "starter"
       ],
-      "servings": 4,
-      "equipment_required": [
-        "air fryer"
-      ],
+      "servings": 2,
       "timing": {
-        "prep_time_minutes": 14,
-        "cook_time_minutes": 24,
-        "total_time_minutes": 39
+        "prep_time_minutes": 25,
+        "preheat_time_minutes": 5,
+        "cook_time_minutes": 15,
+        "total_time_minutes": 40
       },
       "temperature": {
-        "cook_celsius": 194
+        "preheat_celsius": 180,
+        "cook_celsius": 195
+      },
+      "air_fryer": {
+        "model": "Instant Vortex",
+        "power_watts": 1500
       },
       "ingredients": [
         {
-          "name": "Main Ingredient",
+          "name": "Main ingredient",
+          "quantity": 275,
+          "unit": "g"
+        },
+        {
+          "name": "Oil",
           "quantity": 1,
-          "unit": "portion"
+          "unit": "tbsp"
+        },
+        {
+          "name": "Salt",
+          "quantity": 0.5,
+          "unit": "tsp"
         }
       ],
       "steps": [
         {
           "step_number": 1,
-          "description": "Prepare ingredients"
+          "description": "Prepare ingredients."
         },
         {
           "step_number": 2,
-          "description": "Cook in air fryer"
+          "description": "Preheat air fryer."
+        },
+        {
+          "step_number": 3,
+          "description": "Cook until done."
         }
       ],
       "media": {
-        "main_image_url": "https://source.unsplash.com/600x400/?Veg-Cutlet"
+        "main_image_url": "https://media.istockphoto.com/id/1168754685/photo/fried-rice.jpg"
       },
       "nutrition": {
-        "calories": 270
+        "calories": 350,
+        "protein_g": 20,
+        "carbs_g": 35,
+        "fat_g": 23
       },
+      "tips": [
+        "Shake basket halfway."
+      ],
+      "notes": "Adjust seasoning as needed.",
       "author": {
         "name": "Admin"
       },
       "rating": {
-        "average": 4.4
-      }
+        "average": 4.0,
+        "reviews_count": 125
+      },
+      "created_at": "2026-03-23T03:13:36Z"
     },
     {
       "recipe_id": "AFR016",
-      "name": "Tandoori Chicken",
-      "cuisine": "Global",
-      "level": "Easy",
-      "difficulty_score": 1,
-      "diet": "non-veg",
+      "name": "Noodles",
+      "level": "Medium",
+      "diet": "veg",
       "tags": [
-        "quick",
-        "home"
+        "snack",
+        "quick"
       ],
-      "servings": 2,
-      "equipment_required": [
-        "air fryer"
-      ],
+      "servings": 3,
       "timing": {
-        "prep_time_minutes": 15,
-        "cook_time_minutes": 10,
-        "total_time_minutes": 40
+        "prep_time_minutes": 26,
+        "preheat_time_minutes": 5,
+        "cook_time_minutes": 16,
+        "total_time_minutes": 41
       },
       "temperature": {
-        "cook_celsius": 195
+        "preheat_celsius": 180,
+        "cook_celsius": 196
+      },
+      "air_fryer": {
+        "model": "Philips HD9252",
+        "power_watts": 1400
       },
       "ingredients": [
         {
-          "name": "Main Ingredient",
+          "name": "Main ingredient",
+          "quantity": 280,
+          "unit": "g"
+        },
+        {
+          "name": "Oil",
           "quantity": 1,
-          "unit": "portion"
+          "unit": "tbsp"
+        },
+        {
+          "name": "Salt",
+          "quantity": 0.5,
+          "unit": "tsp"
         }
       ],
       "steps": [
         {
           "step_number": 1,
-          "description": "Prepare ingredients"
+          "description": "Prepare ingredients."
         },
         {
           "step_number": 2,
-          "description": "Cook in air fryer"
+          "description": "Preheat air fryer."
+        },
+        {
+          "step_number": 3,
+          "description": "Cook until done."
         }
       ],
       "media": {
-        "main_image_url": "https://source.unsplash.com/600x400/?Tandoori-Chicken"
+        "main_image_url": "https://media.istockphoto.com/id/1205482281/photo/noodles.jpg"
       },
       "nutrition": {
-        "calories": 275
+        "calories": 360,
+        "protein_g": 21,
+        "carbs_g": 36,
+        "fat_g": 24
       },
+      "tips": [
+        "Shake basket halfway."
+      ],
+      "notes": "Adjust seasoning as needed.",
       "author": {
         "name": "Admin"
       },
       "rating": {
-        "average": 4.5
-      }
+        "average": 4.1,
+        "reviews_count": 130
+      },
+      "created_at": "2026-03-23T03:13:36Z"
     },
     {
       "recipe_id": "AFR017",
-      "name": "Paneer Wrap",
-      "cuisine": "Global",
+      "name": "Omelette",
       "level": "Medium",
-      "difficulty_score": 2,
-      "diet": "veg",
+      "diet": "non-veg",
       "tags": [
-        "quick",
-        "home"
+        "protein",
+        "starter"
       ],
-      "servings": 3,
-      "equipment_required": [
-        "air fryer"
-      ],
+      "servings": 4,
       "timing": {
-        "prep_time_minutes": 16,
-        "cook_time_minutes": 11,
-        "total_time_minutes": 41
+        "prep_time_minutes": 27,
+        "preheat_time_minutes": 5,
+        "cook_time_minutes": 17,
+        "total_time_minutes": 42
       },
       "temperature": {
-        "cook_celsius": 196
+        "preheat_celsius": 180,
+        "cook_celsius": 197
+      },
+      "air_fryer": {
+        "model": "Instant Vortex",
+        "power_watts": 1500
       },
       "ingredients": [
         {
-          "name": "Main Ingredient",
+          "name": "Main ingredient",
+          "quantity": 285,
+          "unit": "g"
+        },
+        {
+          "name": "Oil",
           "quantity": 1,
-          "unit": "portion"
+          "unit": "tbsp"
+        },
+        {
+          "name": "Salt",
+          "quantity": 0.5,
+          "unit": "tsp"
         }
       ],
       "steps": [
         {
           "step_number": 1,
-          "description": "Prepare ingredients"
+          "description": "Prepare ingredients."
         },
         {
           "step_number": 2,
-          "description": "Cook in air fryer"
+          "description": "Preheat air fryer."
+        },
+        {
+          "step_number": 3,
+          "description": "Cook until done."
         }
       ],
       "media": {
-        "main_image_url": "https://source.unsplash.com/600x400/?Paneer-Wrap"
+        "main_image_url": "https://media.istockphoto.com/id/121212212/photo/omelette.jpg"
       },
       "nutrition": {
-        "calories": 280
+        "calories": 370,
+        "protein_g": 22,
+        "carbs_g": 37,
+        "fat_g": 25
       },
+      "tips": [
+        "Shake basket halfway."
+      ],
+      "notes": "Adjust seasoning as needed.",
       "author": {
         "name": "Admin"
       },
       "rating": {
-        "average": 4.6
-      }
+        "average": 4.2,
+        "reviews_count": 135
+      },
+      "created_at": "2026-03-23T03:13:36Z"
     },
     {
       "recipe_id": "AFR018",
-      "name": "Fried Rice",
-      "cuisine": "Global",
-      "level": "Medium",
-      "difficulty_score": 3,
-      "diet": "non-veg",
+      "name": "Masala Corn",
+      "level": "Easy",
+      "diet": "veg",
       "tags": [
-        "quick",
-        "home"
+        "snack",
+        "quick"
       ],
-      "servings": 4,
-      "equipment_required": [
-        "air fryer"
-      ],
+      "servings": 2,
       "timing": {
-        "prep_time_minutes": 17,
-        "cook_time_minutes": 12,
-        "total_time_minutes": 42
+        "prep_time_minutes": 28,
+        "preheat_time_minutes": 5,
+        "cook_time_minutes": 18,
+        "total_time_minutes": 43
       },
       "temperature": {
-        "cook_celsius": 197
+        "preheat_celsius": 180,
+        "cook_celsius": 198
+      },
+      "air_fryer": {
+        "model": "Philips HD9252",
+        "power_watts": 1400
       },
       "ingredients": [
         {
-          "name": "Main Ingredient",
+          "name": "Main ingredient",
+          "quantity": 290,
+          "unit": "g"
+        },
+        {
+          "name": "Oil",
           "quantity": 1,
-          "unit": "portion"
+          "unit": "tbsp"
+        },
+        {
+          "name": "Salt",
+          "quantity": 0.5,
+          "unit": "tsp"
         }
       ],
       "steps": [
         {
           "step_number": 1,
-          "description": "Prepare ingredients"
+          "description": "Prepare ingredients."
         },
         {
           "step_number": 2,
-          "description": "Cook in air fryer"
+          "description": "Preheat air fryer."
+        },
+        {
+          "step_number": 3,
+          "description": "Cook until done."
         }
       ],
       "media": {
-        "main_image_url": "https://source.unsplash.com/600x400/?Fried-Rice"
+        "main_image_url": "https://media.istockphoto.com/id/1318345726/photo/masala-corn.jpg"
       },
       "nutrition": {
-        "calories": 285
+        "calories": 380,
+        "protein_g": 23,
+        "carbs_g": 38,
+        "fat_g": 26
       },
+      "tips": [
+        "Shake basket halfway."
+      ],
+      "notes": "Adjust seasoning as needed.",
       "author": {
         "name": "Admin"
       },
       "rating": {
-        "average": 4.7
-      }
+        "average": 4.3,
+        "reviews_count": 140
+      },
+      "created_at": "2026-03-23T03:13:36Z"
     },
     {
       "recipe_id": "AFR019",
-      "name": "Noodles",
-      "cuisine": "Global",
-      "level": "Easy",
-      "difficulty_score": 4,
-      "diet": "veg",
+      "name": "Stuffed Mushrooms",
+      "level": "Medium",
+      "diet": "non-veg",
       "tags": [
-        "quick",
-        "home"
+        "protein",
+        "starter"
       ],
-      "servings": 2,
-      "equipment_required": [
-        "air fryer"
-      ],
+      "servings": 3,
       "timing": {
-        "prep_time_minutes": 18,
-        "cook_time_minutes": 13,
-        "total_time_minutes": 43
+        "prep_time_minutes": 29,
+        "preheat_time_minutes": 5,
+        "cook_time_minutes": 19,
+        "total_time_minutes": 44
       },
       "temperature": {
-        "cook_celsius": 198
+        "preheat_celsius": 180,
+        "cook_celsius": 199
+      },
+      "air_fryer": {
+        "model": "Instant Vortex",
+        "power_watts": 1500
       },
       "ingredients": [
         {
-          "name": "Main Ingredient",
+          "name": "Main ingredient",
+          "quantity": 295,
+          "unit": "g"
+        },
+        {
+          "name": "Oil",
           "quantity": 1,
-          "unit": "portion"
+          "unit": "tbsp"
+        },
+        {
+          "name": "Salt",
+          "quantity": 0.5,
+          "unit": "tsp"
         }
       ],
       "steps": [
         {
           "step_number": 1,
-          "description": "Prepare ingredients"
+          "description": "Prepare ingredients."
         },
         {
           "step_number": 2,
-          "description": "Cook in air fryer"
+          "description": "Preheat air fryer."
+        },
+        {
+          "step_number": 3,
+          "description": "Cook until done."
         }
       ],
       "media": {
-        "main_image_url": "https://source.unsplash.com/600x400/?Noodles"
+        "main_image_url": "https://media.istockphoto.com/id/1189271874/photo/stuffed-mushrooms.jpg"
       },
       "nutrition": {
-        "calories": 290
+        "calories": 390,
+        "protein_g": 24,
+        "carbs_g": 39,
+        "fat_g": 27
       },
+      "tips": [
+        "Shake basket halfway."
+      ],
+      "notes": "Adjust seasoning as needed.",
       "author": {
         "name": "Admin"
       },
       "rating": {
-        "average": 4.8
-      }
+        "average": 4.4,
+        "reviews_count": 145
+      },
+      "created_at": "2026-03-23T03:13:36Z"
     },
     {
       "recipe_id": "AFR020",
-      "name": "Omelette",
-      "cuisine": "Global",
-      "level": "Medium",
-      "difficulty_score": 5,
-      "diet": "non-veg",
-      "tags": [
-        "quick",
-        "home"
-      ],
-      "servings": 3,
-      "equipment_required": [
-        "air fryer"
-      ],
-      "timing": {
-        "prep_time_minutes": 19,
-        "cook_time_minutes": 14,
-        "total_time_minutes": 44
-      },
-      "temperature": {
-        "cook_celsius": 199
-      },
-      "ingredients": [
-        {
-          "name": "Main Ingredient",
-          "quantity": 1,
-          "unit": "portion"
-        }
-      ],
-      "steps": [
-        {
-          "step_number": 1,
-          "description": "Prepare ingredients"
-        },
-        {
-          "step_number": 2,
-          "description": "Cook in air fryer"
-        }
-      ],
-      "media": {
-        "main_image_url": "https://source.unsplash.com/600x400/?Omelette"
-      },
-      "nutrition": {
-        "calories": 295
-      },
-      "author": {
-        "name": "Admin"
-      },
-      "rating": {
-        "average": 4.9
-      }
-    },
-    {
-      "recipe_id": "AFR021",
-      "name": "Scrambled Eggs",
-      "cuisine": "Global",
-      "level": "Medium",
-      "difficulty_score": 1,
-      "diet": "veg",
-      "tags": [
-        "quick",
-        "home"
-      ],
-      "servings": 4,
-      "equipment_required": [
-        "air fryer"
-      ],
-      "timing": {
-        "prep_time_minutes": 10,
-        "cook_time_minutes": 15,
-        "total_time_minutes": 25
-      },
-      "temperature": {
-        "cook_celsius": 180
-      },
-      "ingredients": [
-        {
-          "name": "Main Ingredient",
-          "quantity": 1,
-          "unit": "portion"
-        }
-      ],
-      "steps": [
-        {
-          "step_number": 1,
-          "description": "Prepare ingredients"
-        },
-        {
-          "step_number": 2,
-          "description": "Cook in air fryer"
-        }
-      ],
-      "media": {
-        "main_image_url": "https://source.unsplash.com/600x400/?Scrambled-Eggs"
-      },
-      "nutrition": {
-        "calories": 300
-      },
-      "author": {
-        "name": "Admin"
-      },
-      "rating": {
-        "average": 4.0
-      }
-    },
-    {
-      "recipe_id": "AFR022",
-      "name": "Masala Corn",
-      "cuisine": "Global",
-      "level": "Easy",
-      "difficulty_score": 2,
-      "diet": "non-veg",
-      "tags": [
-        "quick",
-        "home"
-      ],
-      "servings": 2,
-      "equipment_required": [
-        "air fryer"
-      ],
-      "timing": {
-        "prep_time_minutes": 11,
-        "cook_time_minutes": 16,
-        "total_time_minutes": 26
-      },
-      "temperature": {
-        "cook_celsius": 181
-      },
-      "ingredients": [
-        {
-          "name": "Main Ingredient",
-          "quantity": 1,
-          "unit": "portion"
-        }
-      ],
-      "steps": [
-        {
-          "step_number": 1,
-          "description": "Prepare ingredients"
-        },
-        {
-          "step_number": 2,
-          "description": "Cook in air fryer"
-        }
-      ],
-      "media": {
-        "main_image_url": "https://source.unsplash.com/600x400/?Masala-Corn"
-      },
-      "nutrition": {
-        "calories": 305
-      },
-      "author": {
-        "name": "Admin"
-      },
-      "rating": {
-        "average": 4.1
-      }
-    },
-    {
-      "recipe_id": "AFR023",
-      "name": "Stuffed Mushrooms",
-      "cuisine": "Global",
-      "level": "Medium",
-      "difficulty_score": 3,
-      "diet": "veg",
-      "tags": [
-        "quick",
-        "home"
-      ],
-      "servings": 3,
-      "equipment_required": [
-        "air fryer"
-      ],
-      "timing": {
-        "prep_time_minutes": 12,
-        "cook_time_minutes": 17,
-        "total_time_minutes": 27
-      },
-      "temperature": {
-        "cook_celsius": 182
-      },
-      "ingredients": [
-        {
-          "name": "Main Ingredient",
-          "quantity": 1,
-          "unit": "portion"
-        }
-      ],
-      "steps": [
-        {
-          "step_number": 1,
-          "description": "Prepare ingredients"
-        },
-        {
-          "step_number": 2,
-          "description": "Cook in air fryer"
-        }
-      ],
-      "media": {
-        "main_image_url": "https://source.unsplash.com/600x400/?Stuffed-Mushrooms"
-      },
-      "nutrition": {
-        "calories": 310
-      },
-      "author": {
-        "name": "Admin"
-      },
-      "rating": {
-        "average": 4.2
-      }
-    },
-    {
-      "recipe_id": "AFR024",
       "name": "Veg Kebabs",
-      "cuisine": "Global",
       "level": "Medium",
-      "difficulty_score": 4,
-      "diet": "non-veg",
+      "diet": "veg",
       "tags": [
-        "quick",
-        "home"
+        "snack",
+        "quick"
       ],
       "servings": 4,
-      "equipment_required": [
-        "air fryer"
-      ],
       "timing": {
-        "prep_time_minutes": 13,
-        "cook_time_minutes": 18,
-        "total_time_minutes": 28
-      },
-      "temperature": {
-        "cook_celsius": 183
-      },
-      "ingredients": [
-        {
-          "name": "Main Ingredient",
-          "quantity": 1,
-          "unit": "portion"
-        }
-      ],
-      "steps": [
-        {
-          "step_number": 1,
-          "description": "Prepare ingredients"
-        },
-        {
-          "step_number": 2,
-          "description": "Cook in air fryer"
-        }
-      ],
-      "media": {
-        "main_image_url": "https://source.unsplash.com/600x400/?Veg-Kebabs"
-      },
-      "nutrition": {
-        "calories": 315
-      },
-      "author": {
-        "name": "Admin"
-      },
-      "rating": {
-        "average": 4.3
-      }
-    },
-    {
-      "recipe_id": "AFR025",
-      "name": "Chicken Kebabs",
-      "cuisine": "Global",
-      "level": "Easy",
-      "difficulty_score": 5,
-      "diet": "veg",
-      "tags": [
-        "quick",
-        "home"
-      ],
-      "servings": 2,
-      "equipment_required": [
-        "air fryer"
-      ],
-      "timing": {
-        "prep_time_minutes": 14,
-        "cook_time_minutes": 19,
-        "total_time_minutes": 29
-      },
-      "temperature": {
-        "cook_celsius": 184
-      },
-      "ingredients": [
-        {
-          "name": "Main Ingredient",
-          "quantity": 1,
-          "unit": "portion"
-        }
-      ],
-      "steps": [
-        {
-          "step_number": 1,
-          "description": "Prepare ingredients"
-        },
-        {
-          "step_number": 2,
-          "description": "Cook in air fryer"
-        }
-      ],
-      "media": {
-        "main_image_url": "https://source.unsplash.com/600x400/?Chicken-Kebabs"
-      },
-      "nutrition": {
-        "calories": 320
-      },
-      "author": {
-        "name": "Admin"
-      },
-      "rating": {
-        "average": 4.4
-      }
-    },
-    {
-      "recipe_id": "AFR026",
-      "name": "Dosa",
-      "cuisine": "Global",
-      "level": "Medium",
-      "difficulty_score": 1,
-      "diet": "non-veg",
-      "tags": [
-        "quick",
-        "home"
-      ],
-      "servings": 3,
-      "equipment_required": [
-        "air fryer"
-      ],
-      "timing": {
-        "prep_time_minutes": 15,
-        "cook_time_minutes": 20,
-        "total_time_minutes": 30
-      },
-      "temperature": {
-        "cook_celsius": 185
-      },
-      "ingredients": [
-        {
-          "name": "Main Ingredient",
-          "quantity": 1,
-          "unit": "portion"
-        }
-      ],
-      "steps": [
-        {
-          "step_number": 1,
-          "description": "Prepare ingredients"
-        },
-        {
-          "step_number": 2,
-          "description": "Cook in air fryer"
-        }
-      ],
-      "media": {
-        "main_image_url": "https://source.unsplash.com/600x400/?Dosa"
-      },
-      "nutrition": {
-        "calories": 325
-      },
-      "author": {
-        "name": "Admin"
-      },
-      "rating": {
-        "average": 4.5
-      }
-    },
-    {
-      "recipe_id": "AFR027",
-      "name": "Idli",
-      "cuisine": "Global",
-      "level": "Medium",
-      "difficulty_score": 2,
-      "diet": "veg",
-      "tags": [
-        "quick",
-        "home"
-      ],
-      "servings": 4,
-      "equipment_required": [
-        "air fryer"
-      ],
-      "timing": {
-        "prep_time_minutes": 16,
-        "cook_time_minutes": 21,
-        "total_time_minutes": 31
-      },
-      "temperature": {
-        "cook_celsius": 186
-      },
-      "ingredients": [
-        {
-          "name": "Main Ingredient",
-          "quantity": 1,
-          "unit": "portion"
-        }
-      ],
-      "steps": [
-        {
-          "step_number": 1,
-          "description": "Prepare ingredients"
-        },
-        {
-          "step_number": 2,
-          "description": "Cook in air fryer"
-        }
-      ],
-      "media": {
-        "main_image_url": "https://source.unsplash.com/600x400/?Idli"
-      },
-      "nutrition": {
-        "calories": 330
-      },
-      "author": {
-        "name": "Admin"
-      },
-      "rating": {
-        "average": 4.6
-      }
-    },
-    {
-      "recipe_id": "AFR028",
-      "name": "Upma",
-      "cuisine": "Global",
-      "level": "Easy",
-      "difficulty_score": 3,
-      "diet": "non-veg",
-      "tags": [
-        "quick",
-        "home"
-      ],
-      "servings": 2,
-      "equipment_required": [
-        "air fryer"
-      ],
-      "timing": {
-        "prep_time_minutes": 17,
-        "cook_time_minutes": 22,
-        "total_time_minutes": 32
-      },
-      "temperature": {
-        "cook_celsius": 187
-      },
-      "ingredients": [
-        {
-          "name": "Main Ingredient",
-          "quantity": 1,
-          "unit": "portion"
-        }
-      ],
-      "steps": [
-        {
-          "step_number": 1,
-          "description": "Prepare ingredients"
-        },
-        {
-          "step_number": 2,
-          "description": "Cook in air fryer"
-        }
-      ],
-      "media": {
-        "main_image_url": "https://source.unsplash.com/600x400/?Upma"
-      },
-      "nutrition": {
-        "calories": 335
-      },
-      "author": {
-        "name": "Admin"
-      },
-      "rating": {
-        "average": 4.7
-      }
-    },
-    {
-      "recipe_id": "AFR029",
-      "name": "Poha",
-      "cuisine": "Global",
-      "level": "Medium",
-      "difficulty_score": 4,
-      "diet": "veg",
-      "tags": [
-        "quick",
-        "home"
-      ],
-      "servings": 3,
-      "equipment_required": [
-        "air fryer"
-      ],
-      "timing": {
-        "prep_time_minutes": 18,
-        "cook_time_minutes": 23,
-        "total_time_minutes": 33
-      },
-      "temperature": {
-        "cook_celsius": 188
-      },
-      "ingredients": [
-        {
-          "name": "Main Ingredient",
-          "quantity": 1,
-          "unit": "portion"
-        }
-      ],
-      "steps": [
-        {
-          "step_number": 1,
-          "description": "Prepare ingredients"
-        },
-        {
-          "step_number": 2,
-          "description": "Cook in air fryer"
-        }
-      ],
-      "media": {
-        "main_image_url": "https://source.unsplash.com/600x400/?Poha"
-      },
-      "nutrition": {
-        "calories": 340
-      },
-      "author": {
-        "name": "Admin"
-      },
-      "rating": {
-        "average": 4.8
-      }
-    },
-    {
-      "recipe_id": "AFR030",
-      "name": "Paratha",
-      "cuisine": "Global",
-      "level": "Medium",
-      "difficulty_score": 5,
-      "diet": "non-veg",
-      "tags": [
-        "quick",
-        "home"
-      ],
-      "servings": 4,
-      "equipment_required": [
-        "air fryer"
-      ],
-      "timing": {
-        "prep_time_minutes": 19,
-        "cook_time_minutes": 24,
-        "total_time_minutes": 34
-      },
-      "temperature": {
-        "cook_celsius": 189
-      },
-      "ingredients": [
-        {
-          "name": "Main Ingredient",
-          "quantity": 1,
-          "unit": "portion"
-        }
-      ],
-      "steps": [
-        {
-          "step_number": 1,
-          "description": "Prepare ingredients"
-        },
-        {
-          "step_number": 2,
-          "description": "Cook in air fryer"
-        }
-      ],
-      "media": {
-        "main_image_url": "https://source.unsplash.com/600x400/?Paratha"
-      },
-      "nutrition": {
-        "calories": 345
-      },
-      "author": {
-        "name": "Admin"
-      },
-      "rating": {
-        "average": 4.9
-      }
-    },
-    {
-      "recipe_id": "AFR031",
-      "name": "Chole",
-      "cuisine": "Global",
-      "level": "Easy",
-      "difficulty_score": 1,
-      "diet": "veg",
-      "tags": [
-        "quick",
-        "home"
-      ],
-      "servings": 2,
-      "equipment_required": [
-        "air fryer"
-      ],
-      "timing": {
-        "prep_time_minutes": 10,
+        "prep_time_minutes": 30,
+        "preheat_time_minutes": 5,
         "cook_time_minutes": 10,
-        "total_time_minutes": 35
+        "total_time_minutes": 45
       },
       "temperature": {
-        "cook_celsius": 190
-      },
-      "ingredients": [
-        {
-          "name": "Main Ingredient",
-          "quantity": 1,
-          "unit": "portion"
-        }
-      ],
-      "steps": [
-        {
-          "step_number": 1,
-          "description": "Prepare ingredients"
-        },
-        {
-          "step_number": 2,
-          "description": "Cook in air fryer"
-        }
-      ],
-      "media": {
-        "main_image_url": "https://source.unsplash.com/600x400/?Chole"
-      },
-      "nutrition": {
-        "calories": 350
-      },
-      "author": {
-        "name": "Admin"
-      },
-      "rating": {
-        "average": 4.0
-      }
-    },
-    {
-      "recipe_id": "AFR032",
-      "name": "Rajma",
-      "cuisine": "Global",
-      "level": "Medium",
-      "difficulty_score": 2,
-      "diet": "non-veg",
-      "tags": [
-        "quick",
-        "home"
-      ],
-      "servings": 3,
-      "equipment_required": [
-        "air fryer"
-      ],
-      "timing": {
-        "prep_time_minutes": 11,
-        "cook_time_minutes": 11,
-        "total_time_minutes": 36
-      },
-      "temperature": {
-        "cook_celsius": 191
-      },
-      "ingredients": [
-        {
-          "name": "Main Ingredient",
-          "quantity": 1,
-          "unit": "portion"
-        }
-      ],
-      "steps": [
-        {
-          "step_number": 1,
-          "description": "Prepare ingredients"
-        },
-        {
-          "step_number": 2,
-          "description": "Cook in air fryer"
-        }
-      ],
-      "media": {
-        "main_image_url": "https://source.unsplash.com/600x400/?Rajma"
-      },
-      "nutrition": {
-        "calories": 355
-      },
-      "author": {
-        "name": "Admin"
-      },
-      "rating": {
-        "average": 4.1
-      }
-    },
-    {
-      "recipe_id": "AFR033",
-      "name": "Dal Tadka",
-      "cuisine": "Global",
-      "level": "Medium",
-      "difficulty_score": 3,
-      "diet": "veg",
-      "tags": [
-        "quick",
-        "home"
-      ],
-      "servings": 4,
-      "equipment_required": [
-        "air fryer"
-      ],
-      "timing": {
-        "prep_time_minutes": 12,
-        "cook_time_minutes": 12,
-        "total_time_minutes": 37
-      },
-      "temperature": {
-        "cook_celsius": 192
-      },
-      "ingredients": [
-        {
-          "name": "Main Ingredient",
-          "quantity": 1,
-          "unit": "portion"
-        }
-      ],
-      "steps": [
-        {
-          "step_number": 1,
-          "description": "Prepare ingredients"
-        },
-        {
-          "step_number": 2,
-          "description": "Cook in air fryer"
-        }
-      ],
-      "media": {
-        "main_image_url": "https://source.unsplash.com/600x400/?Dal-Tadka"
-      },
-      "nutrition": {
-        "calories": 360
-      },
-      "author": {
-        "name": "Admin"
-      },
-      "rating": {
-        "average": 4.2
-      }
-    },
-    {
-      "recipe_id": "AFR034",
-      "name": "Pulao",
-      "cuisine": "Global",
-      "level": "Easy",
-      "difficulty_score": 4,
-      "diet": "non-veg",
-      "tags": [
-        "quick",
-        "home"
-      ],
-      "servings": 2,
-      "equipment_required": [
-        "air fryer"
-      ],
-      "timing": {
-        "prep_time_minutes": 13,
-        "cook_time_minutes": 13,
-        "total_time_minutes": 38
-      },
-      "temperature": {
-        "cook_celsius": 193
-      },
-      "ingredients": [
-        {
-          "name": "Main Ingredient",
-          "quantity": 1,
-          "unit": "portion"
-        }
-      ],
-      "steps": [
-        {
-          "step_number": 1,
-          "description": "Prepare ingredients"
-        },
-        {
-          "step_number": 2,
-          "description": "Cook in air fryer"
-        }
-      ],
-      "media": {
-        "main_image_url": "https://source.unsplash.com/600x400/?Pulao"
-      },
-      "nutrition": {
-        "calories": 365
-      },
-      "author": {
-        "name": "Admin"
-      },
-      "rating": {
-        "average": 4.3
-      }
-    },
-    {
-      "recipe_id": "AFR035",
-      "name": "Biryani",
-      "cuisine": "Global",
-      "level": "Medium",
-      "difficulty_score": 5,
-      "diet": "veg",
-      "tags": [
-        "quick",
-        "home"
-      ],
-      "servings": 3,
-      "equipment_required": [
-        "air fryer"
-      ],
-      "timing": {
-        "prep_time_minutes": 14,
-        "cook_time_minutes": 14,
-        "total_time_minutes": 39
-      },
-      "temperature": {
-        "cook_celsius": 194
-      },
-      "ingredients": [
-        {
-          "name": "Main Ingredient",
-          "quantity": 1,
-          "unit": "portion"
-        }
-      ],
-      "steps": [
-        {
-          "step_number": 1,
-          "description": "Prepare ingredients"
-        },
-        {
-          "step_number": 2,
-          "description": "Cook in air fryer"
-        }
-      ],
-      "media": {
-        "main_image_url": "https://source.unsplash.com/600x400/?Biryani"
-      },
-      "nutrition": {
-        "calories": 370
-      },
-      "author": {
-        "name": "Admin"
-      },
-      "rating": {
-        "average": 4.4
-      }
-    },
-    {
-      "recipe_id": "AFR036",
-      "name": "Salad Bowl",
-      "cuisine": "Global",
-      "level": "Medium",
-      "difficulty_score": 1,
-      "diet": "non-veg",
-      "tags": [
-        "quick",
-        "home"
-      ],
-      "servings": 4,
-      "equipment_required": [
-        "air fryer"
-      ],
-      "timing": {
-        "prep_time_minutes": 15,
-        "cook_time_minutes": 15,
-        "total_time_minutes": 40
-      },
-      "temperature": {
-        "cook_celsius": 195
-      },
-      "ingredients": [
-        {
-          "name": "Main Ingredient",
-          "quantity": 1,
-          "unit": "portion"
-        }
-      ],
-      "steps": [
-        {
-          "step_number": 1,
-          "description": "Prepare ingredients"
-        },
-        {
-          "step_number": 2,
-          "description": "Cook in air fryer"
-        }
-      ],
-      "media": {
-        "main_image_url": "https://source.unsplash.com/600x400/?Salad-Bowl"
-      },
-      "nutrition": {
-        "calories": 375
-      },
-      "author": {
-        "name": "Admin"
-      },
-      "rating": {
-        "average": 4.5
-      }
-    },
-    {
-      "recipe_id": "AFR037",
-      "name": "Fruit Salad",
-      "cuisine": "Global",
-      "level": "Easy",
-      "difficulty_score": 2,
-      "diet": "veg",
-      "tags": [
-        "quick",
-        "home"
-      ],
-      "servings": 2,
-      "equipment_required": [
-        "air fryer"
-      ],
-      "timing": {
-        "prep_time_minutes": 16,
-        "cook_time_minutes": 16,
-        "total_time_minutes": 41
-      },
-      "temperature": {
-        "cook_celsius": 196
-      },
-      "ingredients": [
-        {
-          "name": "Main Ingredient",
-          "quantity": 1,
-          "unit": "portion"
-        }
-      ],
-      "steps": [
-        {
-          "step_number": 1,
-          "description": "Prepare ingredients"
-        },
-        {
-          "step_number": 2,
-          "description": "Cook in air fryer"
-        }
-      ],
-      "media": {
-        "main_image_url": "https://source.unsplash.com/600x400/?Fruit-Salad"
-      },
-      "nutrition": {
-        "calories": 380
-      },
-      "author": {
-        "name": "Admin"
-      },
-      "rating": {
-        "average": 4.6
-      }
-    },
-    {
-      "recipe_id": "AFR038",
-      "name": "Smoothie",
-      "cuisine": "Global",
-      "level": "Medium",
-      "difficulty_score": 3,
-      "diet": "non-veg",
-      "tags": [
-        "quick",
-        "home"
-      ],
-      "servings": 3,
-      "equipment_required": [
-        "air fryer"
-      ],
-      "timing": {
-        "prep_time_minutes": 17,
-        "cook_time_minutes": 17,
-        "total_time_minutes": 42
-      },
-      "temperature": {
-        "cook_celsius": 197
-      },
-      "ingredients": [
-        {
-          "name": "Main Ingredient",
-          "quantity": 1,
-          "unit": "portion"
-        }
-      ],
-      "steps": [
-        {
-          "step_number": 1,
-          "description": "Prepare ingredients"
-        },
-        {
-          "step_number": 2,
-          "description": "Cook in air fryer"
-        }
-      ],
-      "media": {
-        "main_image_url": "https://source.unsplash.com/600x400/?Smoothie"
-      },
-      "nutrition": {
-        "calories": 385
-      },
-      "author": {
-        "name": "Admin"
-      },
-      "rating": {
-        "average": 4.7
-      }
-    },
-    {
-      "recipe_id": "AFR039",
-      "name": "Milkshake",
-      "cuisine": "Global",
-      "level": "Medium",
-      "difficulty_score": 4,
-      "diet": "veg",
-      "tags": [
-        "quick",
-        "home"
-      ],
-      "servings": 4,
-      "equipment_required": [
-        "air fryer"
-      ],
-      "timing": {
-        "prep_time_minutes": 18,
-        "cook_time_minutes": 18,
-        "total_time_minutes": 43
-      },
-      "temperature": {
-        "cook_celsius": 198
-      },
-      "ingredients": [
-        {
-          "name": "Main Ingredient",
-          "quantity": 1,
-          "unit": "portion"
-        }
-      ],
-      "steps": [
-        {
-          "step_number": 1,
-          "description": "Prepare ingredients"
-        },
-        {
-          "step_number": 2,
-          "description": "Cook in air fryer"
-        }
-      ],
-      "media": {
-        "main_image_url": "https://source.unsplash.com/600x400/?Milkshake"
-      },
-      "nutrition": {
-        "calories": 390
-      },
-      "author": {
-        "name": "Admin"
-      },
-      "rating": {
-        "average": 4.8
-      }
-    },
-    {
-      "recipe_id": "AFR040",
-      "name": "Pancakes",
-      "cuisine": "Global",
-      "level": "Easy",
-      "difficulty_score": 5,
-      "diet": "non-veg",
-      "tags": [
-        "quick",
-        "home"
-      ],
-      "servings": 2,
-      "equipment_required": [
-        "air fryer"
-      ],
-      "timing": {
-        "prep_time_minutes": 19,
-        "cook_time_minutes": 19,
-        "total_time_minutes": 44
-      },
-      "temperature": {
-        "cook_celsius": 199
-      },
-      "ingredients": [
-        {
-          "name": "Main Ingredient",
-          "quantity": 1,
-          "unit": "portion"
-        }
-      ],
-      "steps": [
-        {
-          "step_number": 1,
-          "description": "Prepare ingredients"
-        },
-        {
-          "step_number": 2,
-          "description": "Cook in air fryer"
-        }
-      ],
-      "media": {
-        "main_image_url": "https://source.unsplash.com/600x400/?Pancakes"
-      },
-      "nutrition": {
-        "calories": 395
-      },
-      "author": {
-        "name": "Admin"
-      },
-      "rating": {
-        "average": 4.9
-      }
-    },
-    {
-      "recipe_id": "AFR041",
-      "name": "Waffles",
-      "cuisine": "Global",
-      "level": "Medium",
-      "difficulty_score": 1,
-      "diet": "veg",
-      "tags": [
-        "quick",
-        "home"
-      ],
-      "servings": 3,
-      "equipment_required": [
-        "air fryer"
-      ],
-      "timing": {
-        "prep_time_minutes": 10,
-        "cook_time_minutes": 20,
-        "total_time_minutes": 25
-      },
-      "temperature": {
+        "preheat_celsius": 180,
         "cook_celsius": 180
       },
+      "air_fryer": {
+        "model": "Philips HD9252",
+        "power_watts": 1400
+      },
       "ingredients": [
         {
-          "name": "Main Ingredient",
+          "name": "Main ingredient",
+          "quantity": 300,
+          "unit": "g"
+        },
+        {
+          "name": "Oil",
           "quantity": 1,
-          "unit": "portion"
+          "unit": "tbsp"
+        },
+        {
+          "name": "Salt",
+          "quantity": 0.5,
+          "unit": "tsp"
         }
       ],
       "steps": [
         {
           "step_number": 1,
-          "description": "Prepare ingredients"
+          "description": "Prepare ingredients."
         },
         {
           "step_number": 2,
-          "description": "Cook in air fryer"
+          "description": "Preheat air fryer."
+        },
+        {
+          "step_number": 3,
+          "description": "Cook until done."
         }
       ],
       "media": {
-        "main_image_url": "https://source.unsplash.com/600x400/?Waffles"
+        "main_image_url": "https://media.istockphoto.com/id/1154897283/photo/veg-kebabs.jpg"
       },
       "nutrition": {
-        "calories": 400
+        "calories": 400,
+        "protein_g": 25,
+        "carbs_g": 40,
+        "fat_g": 28
       },
+      "tips": [
+        "Shake basket halfway."
+      ],
+      "notes": "Adjust seasoning as needed.",
       "author": {
         "name": "Admin"
       },
       "rating": {
-        "average": 4.0
-      }
-    },
-    {
-      "recipe_id": "AFR042",
-      "name": "Ice Cream",
-      "cuisine": "Global",
-      "level": "Medium",
-      "difficulty_score": 2,
-      "diet": "non-veg",
-      "tags": [
-        "quick",
-        "home"
-      ],
-      "servings": 4,
-      "equipment_required": [
-        "air fryer"
-      ],
-      "timing": {
-        "prep_time_minutes": 11,
-        "cook_time_minutes": 21,
-        "total_time_minutes": 26
+        "average": 4.0,
+        "reviews_count": 150
       },
-      "temperature": {
-        "cook_celsius": 181
-      },
-      "ingredients": [
-        {
-          "name": "Main Ingredient",
-          "quantity": 1,
-          "unit": "portion"
-        }
-      ],
-      "steps": [
-        {
-          "step_number": 1,
-          "description": "Prepare ingredients"
-        },
-        {
-          "step_number": 2,
-          "description": "Cook in air fryer"
-        }
-      ],
-      "media": {
-        "main_image_url": "https://source.unsplash.com/600x400/?Ice-Cream"
-      },
-      "nutrition": {
-        "calories": 405
-      },
-      "author": {
-        "name": "Admin"
-      },
-      "rating": {
-        "average": 4.1
-      }
-    },
-    {
-      "recipe_id": "AFR043",
-      "name": "Muffins",
-      "cuisine": "Global",
-      "level": "Easy",
-      "difficulty_score": 3,
-      "diet": "veg",
-      "tags": [
-        "quick",
-        "home"
-      ],
-      "servings": 2,
-      "equipment_required": [
-        "air fryer"
-      ],
-      "timing": {
-        "prep_time_minutes": 12,
-        "cook_time_minutes": 22,
-        "total_time_minutes": 27
-      },
-      "temperature": {
-        "cook_celsius": 182
-      },
-      "ingredients": [
-        {
-          "name": "Main Ingredient",
-          "quantity": 1,
-          "unit": "portion"
-        }
-      ],
-      "steps": [
-        {
-          "step_number": 1,
-          "description": "Prepare ingredients"
-        },
-        {
-          "step_number": 2,
-          "description": "Cook in air fryer"
-        }
-      ],
-      "media": {
-        "main_image_url": "https://source.unsplash.com/600x400/?Muffins"
-      },
-      "nutrition": {
-        "calories": 410
-      },
-      "author": {
-        "name": "Admin"
-      },
-      "rating": {
-        "average": 4.2
-      }
-    },
-    {
-      "recipe_id": "AFR044",
-      "name": "Cupcakes",
-      "cuisine": "Global",
-      "level": "Medium",
-      "difficulty_score": 4,
-      "diet": "non-veg",
-      "tags": [
-        "quick",
-        "home"
-      ],
-      "servings": 3,
-      "equipment_required": [
-        "air fryer"
-      ],
-      "timing": {
-        "prep_time_minutes": 13,
-        "cook_time_minutes": 23,
-        "total_time_minutes": 28
-      },
-      "temperature": {
-        "cook_celsius": 183
-      },
-      "ingredients": [
-        {
-          "name": "Main Ingredient",
-          "quantity": 1,
-          "unit": "portion"
-        }
-      ],
-      "steps": [
-        {
-          "step_number": 1,
-          "description": "Prepare ingredients"
-        },
-        {
-          "step_number": 2,
-          "description": "Cook in air fryer"
-        }
-      ],
-      "media": {
-        "main_image_url": "https://source.unsplash.com/600x400/?Cupcakes"
-      },
-      "nutrition": {
-        "calories": 415
-      },
-      "author": {
-        "name": "Admin"
-      },
-      "rating": {
-        "average": 4.3
-      }
-    },
-    {
-      "recipe_id": "AFR045",
-      "name": "Donuts",
-      "cuisine": "Global",
-      "level": "Medium",
-      "difficulty_score": 5,
-      "diet": "veg",
-      "tags": [
-        "quick",
-        "home"
-      ],
-      "servings": 4,
-      "equipment_required": [
-        "air fryer"
-      ],
-      "timing": {
-        "prep_time_minutes": 14,
-        "cook_time_minutes": 24,
-        "total_time_minutes": 29
-      },
-      "temperature": {
-        "cook_celsius": 184
-      },
-      "ingredients": [
-        {
-          "name": "Main Ingredient",
-          "quantity": 1,
-          "unit": "portion"
-        }
-      ],
-      "steps": [
-        {
-          "step_number": 1,
-          "description": "Prepare ingredients"
-        },
-        {
-          "step_number": 2,
-          "description": "Cook in air fryer"
-        }
-      ],
-      "media": {
-        "main_image_url": "https://source.unsplash.com/600x400/?Donuts"
-      },
-      "nutrition": {
-        "calories": 420
-      },
-      "author": {
-        "name": "Admin"
-      },
-      "rating": {
-        "average": 4.4
-      }
-    },
-    {
-      "recipe_id": "AFR046",
-      "name": "Nachos",
-      "cuisine": "Global",
-      "level": "Easy",
-      "difficulty_score": 1,
-      "diet": "non-veg",
-      "tags": [
-        "quick",
-        "home"
-      ],
-      "servings": 2,
-      "equipment_required": [
-        "air fryer"
-      ],
-      "timing": {
-        "prep_time_minutes": 15,
-        "cook_time_minutes": 10,
-        "total_time_minutes": 30
-      },
-      "temperature": {
-        "cook_celsius": 185
-      },
-      "ingredients": [
-        {
-          "name": "Main Ingredient",
-          "quantity": 1,
-          "unit": "portion"
-        }
-      ],
-      "steps": [
-        {
-          "step_number": 1,
-          "description": "Prepare ingredients"
-        },
-        {
-          "step_number": 2,
-          "description": "Cook in air fryer"
-        }
-      ],
-      "media": {
-        "main_image_url": "https://source.unsplash.com/600x400/?Nachos"
-      },
-      "nutrition": {
-        "calories": 425
-      },
-      "author": {
-        "name": "Admin"
-      },
-      "rating": {
-        "average": 4.5
-      }
-    },
-    {
-      "recipe_id": "AFR047",
-      "name": "Tacos",
-      "cuisine": "Global",
-      "level": "Medium",
-      "difficulty_score": 2,
-      "diet": "veg",
-      "tags": [
-        "quick",
-        "home"
-      ],
-      "servings": 3,
-      "equipment_required": [
-        "air fryer"
-      ],
-      "timing": {
-        "prep_time_minutes": 16,
-        "cook_time_minutes": 11,
-        "total_time_minutes": 31
-      },
-      "temperature": {
-        "cook_celsius": 186
-      },
-      "ingredients": [
-        {
-          "name": "Main Ingredient",
-          "quantity": 1,
-          "unit": "portion"
-        }
-      ],
-      "steps": [
-        {
-          "step_number": 1,
-          "description": "Prepare ingredients"
-        },
-        {
-          "step_number": 2,
-          "description": "Cook in air fryer"
-        }
-      ],
-      "media": {
-        "main_image_url": "https://source.unsplash.com/600x400/?Tacos"
-      },
-      "nutrition": {
-        "calories": 430
-      },
-      "author": {
-        "name": "Admin"
-      },
-      "rating": {
-        "average": 4.6
-      }
-    },
-    {
-      "recipe_id": "AFR048",
-      "name": "Quesadilla",
-      "cuisine": "Global",
-      "level": "Medium",
-      "difficulty_score": 3,
-      "diet": "non-veg",
-      "tags": [
-        "quick",
-        "home"
-      ],
-      "servings": 4,
-      "equipment_required": [
-        "air fryer"
-      ],
-      "timing": {
-        "prep_time_minutes": 17,
-        "cook_time_minutes": 12,
-        "total_time_minutes": 32
-      },
-      "temperature": {
-        "cook_celsius": 187
-      },
-      "ingredients": [
-        {
-          "name": "Main Ingredient",
-          "quantity": 1,
-          "unit": "portion"
-        }
-      ],
-      "steps": [
-        {
-          "step_number": 1,
-          "description": "Prepare ingredients"
-        },
-        {
-          "step_number": 2,
-          "description": "Cook in air fryer"
-        }
-      ],
-      "media": {
-        "main_image_url": "https://source.unsplash.com/600x400/?Quesadilla"
-      },
-      "nutrition": {
-        "calories": 435
-      },
-      "author": {
-        "name": "Admin"
-      },
-      "rating": {
-        "average": 4.7
-      }
-    },
-    {
-      "recipe_id": "AFR049",
-      "name": "Soup",
-      "cuisine": "Global",
-      "level": "Easy",
-      "difficulty_score": 4,
-      "diet": "veg",
-      "tags": [
-        "quick",
-        "home"
-      ],
-      "servings": 2,
-      "equipment_required": [
-        "air fryer"
-      ],
-      "timing": {
-        "prep_time_minutes": 18,
-        "cook_time_minutes": 13,
-        "total_time_minutes": 33
-      },
-      "temperature": {
-        "cook_celsius": 188
-      },
-      "ingredients": [
-        {
-          "name": "Main Ingredient",
-          "quantity": 1,
-          "unit": "portion"
-        }
-      ],
-      "steps": [
-        {
-          "step_number": 1,
-          "description": "Prepare ingredients"
-        },
-        {
-          "step_number": 2,
-          "description": "Cook in air fryer"
-        }
-      ],
-      "media": {
-        "main_image_url": "https://source.unsplash.com/600x400/?Soup"
-      },
-      "nutrition": {
-        "calories": 440
-      },
-      "author": {
-        "name": "Admin"
-      },
-      "rating": {
-        "average": 4.8
-      }
-    },
-    {
-      "recipe_id": "AFR050",
-      "name": "Stew",
-      "cuisine": "Global",
-      "level": "Medium",
-      "difficulty_score": 5,
-      "diet": "non-veg",
-      "tags": [
-        "quick",
-        "home"
-      ],
-      "servings": 3,
-      "equipment_required": [
-        "air fryer"
-      ],
-      "timing": {
-        "prep_time_minutes": 19,
-        "cook_time_minutes": 14,
-        "total_time_minutes": 34
-      },
-      "temperature": {
-        "cook_celsius": 189
-      },
-      "ingredients": [
-        {
-          "name": "Main Ingredient",
-          "quantity": 1,
-          "unit": "portion"
-        }
-      ],
-      "steps": [
-        {
-          "step_number": 1,
-          "description": "Prepare ingredients"
-        },
-        {
-          "step_number": 2,
-          "description": "Cook in air fryer"
-        }
-      ],
-      "media": {
-        "main_image_url": "https://source.unsplash.com/600x400/?Stew"
-      },
-      "nutrition": {
-        "calories": 445
-      },
-      "author": {
-        "name": "Admin"
-      },
-      "rating": {
-        "average": 4.9
-      }
+      "created_at": "2026-03-23T03:13:36Z"
     }
   ]
 }
