@@ -1,0 +1,369 @@
+{
+  "version": 1.1,
+  "recipes": [
+    {
+      "recipe_id": "AFR001",
+      "name": "French Fries",
+      "level": "Easy",
+      "diet": "veg",
+      "tags": ["snack", "quick", "kids"],
+      "servings": 2,
+      "timing": {
+        "prep_time_minutes": 10,
+        "preheat_time_minutes": 5,
+        "cook_time_minutes": 18,
+        "total_time_minutes": 33
+      },
+      "temperature": {
+        "preheat_celsius": 180,
+        "cook_celsius": 200
+      },
+      "air_fryer": {
+        "model": "Philips HD9252",
+        "power_watts": 1400
+      },
+      "ingredients": [
+        {"name": "Potatoes", "quantity": 2, "unit": "large"},
+        {"name": "Oil", "quantity": 1, "unit": "tbsp"},
+        {"name": "Salt", "quantity": 0.5, "unit": "tsp"}
+      ],
+      "steps": [
+        {"step_number": 1, "description": "Cut potatoes into strips."},
+        {"step_number": 2, "description": "Soak and dry them."},
+        {"step_number": 3, "description": "Preheat air fryer."},
+        {"step_number": 4, "description": "Cook at 200°C for 18 minutes."}
+      ],
+      "media": {
+        "main_image_url": "https://media.istockphoto.com/id/1443993866/photo/french-fries-with-ketchup-and-cocktail-sauce.jpg?s=612x612&w=0&k=20&c=URpOsc5tds8tOfxK4ZO3Tkx6mwLho7fL_pTBSNdziBU="
+      },
+      "nutrition": {"calories": 220, "protein_g": 3, "carbs_g": 35, "fat_g": 8},
+      "tips": ["Shake basket halfway."],
+      "notes": "Crispier if soaked longer.",
+      "author": {"name": "Admin"},
+      "rating": {"average": 4.5, "reviews_count": 120},
+      "created_at": "2026-03-23T10:00:00Z"
+    },
+
+    {
+      "recipe_id": "AFR002",
+      "name": "Chicken Wings",
+      "level": "Medium",
+      "diet": "non-veg",
+      "tags": ["starter", "protein", "party"],
+      "servings": 3,
+      "timing": {
+        "prep_time_minutes": 15,
+        "preheat_time_minutes": 5,
+        "cook_time_minutes": 25,
+        "total_time_minutes": 45
+      },
+      "temperature": {
+        "preheat_celsius": 180,
+        "cook_celsius": 200
+      },
+      "air_fryer": {
+        "model": "Instant Vortex",
+        "power_watts": 1500
+      },
+      "ingredients": [
+        {"name": "Chicken wings", "quantity": 500, "unit": "g"},
+        {"name": "Spices", "quantity": 1, "unit": "tbsp"}
+      ],
+      "steps": [
+        {"step_number": 1, "description": "Season wings."},
+        {"step_number": 2, "description": "Preheat fryer."},
+        {"step_number": 3, "description": "Cook 25 minutes flipping halfway."}
+      ],
+      "media": {
+        "main_image_url": "https://media.istockphoto.com/id/835903320/photo/baked-chicken-wings-with-sesame-seeds-and-sweet-chili-sauce-on-white-wooden-board.jpg?s=612x612&w=0&k=20&c=SH8ZCkEKuWD_wxulpntIJ0uD4yRnUf9UXovQwSwrmmA="
+      },
+      "nutrition": {"calories": 320, "protein_g": 25, "carbs_g": 2, "fat_g": 22},
+      "tips": ["Pat dry wings before cooking."],
+      "author": {"name": "Admin"},
+      "rating": {"average": 4.7, "reviews_count": 95},
+      "created_at": "2026-03-23T10:00:00Z"
+    },
+
+    {
+      "recipe_id": "AFR003",
+      "name": "Paneer Tikka",
+      "level": "Medium",
+      "diet": "veg",
+      "tags": ["indian", "starter"],
+      "servings": 2,
+      "timing": {
+        "prep_time_minutes": 20,
+        "preheat_time_minutes": 5,
+        "cook_time_minutes": 12,
+        "total_time_minutes": 37
+      },
+      "temperature": {
+        "preheat_celsius": 180,
+        "cook_celsius": 190
+      },
+      "air_fryer": {
+        "model": "Philips HD9200",
+        "power_watts": 1400
+      },
+      "ingredients": [
+        {"name": "Paneer", "quantity": 200, "unit": "g"},
+        {"name": "Yogurt", "quantity": 100, "unit": "g"},
+        {"name": "Spices", "quantity": 1, "unit": "tbsp"}
+      ],
+      "steps": [
+        {"step_number": 1, "description": "Marinate paneer."},
+        {"step_number": 2, "description": "Preheat fryer."},
+        {"step_number": 3, "description": "Cook 12 minutes."}
+      ],
+      "media": {
+        "main_image_url": "https://media.istockphoto.com/id/1411191106/photo/indian-paneer-tikka-on-skewers-served-with-onion-and-lemon-directly-above-photo.jpg?s=612x612&w=0&k=20&c=k-OWSE9X-r_7RKfMaSuAF2_LVWw4bLLohM09qMQMzF4="
+      },
+      "nutrition": {"calories": 280, "protein_g": 14, "carbs_g": 6, "fat_g": 22},
+      "tips": ["Use thick curd."],
+      "author": {"name": "Admin"},
+      "rating": {"average": 4.6, "reviews_count": 80},
+      "created_at": "2026-03-23T10:00:00Z"
+    },
+
+    {
+      "recipe_id": "AFR004",
+      "name": "Samosa",
+      "level": "Medium",
+      "diet": "veg",
+      "tags": ["snack", "indian"],
+      "servings": 4,
+      "timing": {
+        "prep_time_minutes": 25,
+        "preheat_time_minutes": 5,
+        "cook_time_minutes": 15,
+        "total_time_minutes": 45
+      },
+      "temperature": {
+        "preheat_celsius": 180,
+        "cook_celsius": 180
+      },
+      "air_fryer": {
+        "model": "Prestige PAF 6.0",
+        "power_watts": 1200
+      },
+      "ingredients": [
+        {"name": "Samosa", "quantity": 6, "unit": "pieces"}
+      ],
+      "steps": [
+        {"step_number": 1, "description": "Preheat fryer."},
+        {"step_number": 2, "description": "Cook samosas 15 minutes."}
+      ],
+      "media": {
+        "main_image_url": "https://media.istockphoto.com/id/2148933061/photo/selective-focus-samosa-spiced-potato-filled-pastry-crispy-savory-popular-indian-snack-with.jpg?s=612x612&w=0&k=20&c=HW1y3HYPa7r-YwB6wn3gktZP-1Fzw9bYKsR8D6yqQOs="
+      },
+      "nutrition": {"calories": 260, "protein_g": 5, "carbs_g": 30, "fat_g": 14},
+      "author": {"name": "Admin"},
+      "rating": {"average": 4.4, "reviews_count": 60},
+      "created_at": "2026-03-23T10:00:00Z"
+    },
+
+    {
+      "recipe_id": "AFR005",
+      "name": "Chicken Nuggets",
+      "level": "Easy",
+      "diet": "non-veg",
+      "tags": ["kids", "snack"],
+      "servings": 2,
+      "timing": {
+        "prep_time_minutes": 10,
+        "preheat_time_minutes": 5,
+        "cook_time_minutes": 12,
+        "total_time_minutes": 27
+      },
+      "temperature": {
+        "preheat_celsius": 180,
+        "cook_celsius": 200
+      },
+      "air_fryer": {
+        "model": "Instant Vortex",
+        "power_watts": 1500
+      },
+      "ingredients": [
+        {"name": "Chicken nuggets", "quantity": 250, "unit": "g"}
+      ],
+      "steps": [
+        {"step_number": 1, "description": "Preheat fryer."},
+        {"step_number": 2, "description": "Cook 12 minutes."}
+      ],
+      "media": {
+        "main_image_url": "https://media.istockphoto.com/id/470177926/photo/homemade-crispy-popcorn-chicken.jpg?s=612x612&w=0&k=20&c=CXUwd4MjivllVUdvqIRnG5y77w8SKgkuzNyEsnd10WA="
+      },
+      "nutrition": {"calories": 300, "protein_g": 18, "carbs_g": 15, "fat_g": 20},
+      "author": {"name": "Admin"},
+      "rating": {"average": 4.5, "reviews_count": 70},
+      "created_at": "2026-03-23T10:00:00Z"
+    },
+
+    {
+      "recipe_id": "AFR006",
+      "name": "Roasted Vegetables",
+      "level": "Easy",
+      "diet": "veg",
+      "tags": ["healthy", "vegan"],
+      "servings": 3,
+      "timing": {
+        "prep_time_minutes": 10,
+        "preheat_time_minutes": 5,
+        "cook_time_minutes": 15,
+        "total_time_minutes": 30
+      },
+      "temperature": {
+        "preheat_celsius": 180,
+        "cook_celsius": 190
+      },
+      "ingredients": [
+        {"name": "Mixed vegetables", "quantity": 300, "unit": "g"},
+        {"name": "Oil", "quantity": 1, "unit": "tbsp"}
+      ],
+      "steps": [
+        {"step_number": 1, "description": "Chop vegetables."},
+        {"step_number": 2, "description": "Cook 15 minutes."}
+      ],
+      "media": {
+        "main_image_url": "https://media.istockphoto.com/id/1134749964/photo/grilled-vegetables-on-a-plate-with-sauce.jpg?s=612x612&w=0&k=20&c=GlL12l7YAV8ygXNMLcIVfo4X_6JQKsHJ-Y56-o5GKDE="
+      },
+      "nutrition": {"calories": 150, "protein_g": 4, "carbs_g": 20, "fat_g": 6},
+      "author": {"name": "Admin"},
+      "rating": {"average": 4.3, "reviews_count": 50},
+      "created_at": "2026-03-23T10:00:00Z"
+    },
+
+    {
+      "recipe_id": "AFR007",
+      "name": "Fish Fry",
+      "level": "Medium",
+      "diet": "non-veg",
+      "tags": ["seafood"],
+      "servings": 2,
+      "timing": {
+        "prep_time_minutes": 15,
+        "preheat_time_minutes": 5,
+        "cook_time_minutes": 12,
+        "total_time_minutes": 32
+      },
+      "temperature": {
+        "preheat_celsius": 180,
+        "cook_celsius": 200
+      },
+      "ingredients": [
+        {"name": "Fish fillets", "quantity": 300, "unit": "g"}
+      ],
+      "steps": [
+        {"step_number": 1, "description": "Season fish."},
+        {"step_number": 2, "description": "Cook 12 minutes."}
+      ],
+      "media": {
+        "main_image_url": "https://media.istockphoto.com/id/1309353866/photo/seer-fish-fry.jpg?s=612x612&w=0&k=20&c=18mD5mCErONAEQYmOz970ZfM1zE_CfMD96VPaHmNSfA="
+      },
+      "nutrition": {"calories": 240, "protein_g": 22, "carbs_g": 3, "fat_g": 15},
+      "author": {"name": "Admin"},
+      "rating": {"average": 4.6, "reviews_count": 65},
+      "created_at": "2026-03-23T10:00:00Z"
+    },
+
+    {
+      "recipe_id": "AFR008",
+      "name": "Spring Rolls",
+      "level": "Medium",
+      "diet": "veg",
+      "tags": ["snack", "asian"],
+      "servings": 3,
+      "timing": {
+        "prep_time_minutes": 20,
+        "preheat_time_minutes": 5,
+        "cook_time_minutes": 10,
+        "total_time_minutes": 35
+      },
+      "temperature": {
+        "preheat_celsius": 180,
+        "cook_celsius": 190
+      },
+      "ingredients": [
+        {"name": "Spring rolls", "quantity": 8, "unit": "pieces"}
+      ],
+      "steps": [
+        {"step_number": 1, "description": "Preheat fryer."},
+        {"step_number": 2, "description": "Cook 10 minutes."}
+      ],
+      "media": {
+        "main_image_url": "https://media.istockphoto.com/id/1371154829/photo/fried-spring-roll-with-chicken-vietnamese-food-top-view.jpg?s=612x612&w=0&k=20&c=rE_c3kY44eLRzwMCRhdC45XYl1yLy7ZOdyfVWwacKJ8="
+      },
+      "nutrition": {"calories": 210, "protein_g": 6, "carbs_g": 28, "fat_g": 9},
+      "author": {"name": "Admin"},
+      "rating": {"average": 4.4, "reviews_count": 55},
+      "created_at": "2026-03-23T10:00:00Z"
+    },
+
+    {
+      "recipe_id": "AFR009",
+      "name": "Pizza",
+      "level": "Easy",
+      "diet": "veg",
+      "tags": ["fastfood"],
+      "servings": 2,
+      "timing": {
+        "prep_time_minutes": 15,
+        "preheat_time_minutes": 5,
+        "cook_time_minutes": 10,
+        "total_time_minutes": 30
+      },
+      "temperature": {
+        "preheat_celsius": 180,
+        "cook_celsius": 180
+      },
+      "ingredients": [
+        {"name": "Pizza base", "quantity": 1, "unit": "piece"}
+      ],
+      "steps": [
+        {"step_number": 1, "description": "Prepare pizza."},
+        {"step_number": 2, "description": "Cook 10 minutes."}
+      ],
+      "media": {
+        "main_image_url": "https://media.istockphoto.com/id/187248625/photo/pepperoni-pizza.jpg?s=612x612&w=0&k=20&c=QHrM65XqDQd3Z50r5cT2qV4nwctw6rNMM1JTlGEEVzI="
+      },
+      "nutrition": {"calories": 290, "protein_g": 12, "carbs_g": 33, "fat_g": 12},
+      "author": {"name": "Admin"},
+      "rating": {"average": 4.5, "reviews_count": 90},
+      "created_at": "2026-03-23T10:00:00Z"
+    },
+
+    {
+      "recipe_id": "AFR010",
+      "name": "Chocolate Cake",
+      "level": "Hard",
+      "diet": "veg",
+      "tags": ["dessert"],
+      "servings": 4,
+      "timing": {
+        "prep_time_minutes": 20,
+        "preheat_time_minutes": 5,
+        "cook_time_minutes": 25,
+        "total_time_minutes": 50
+      },
+      "temperature": {
+        "preheat_celsius": 160,
+        "cook_celsius": 160
+      },
+      "ingredients": [
+        {"name": "Flour", "quantity": 1, "unit": "cup"},
+        {"name": "Cocoa powder", "quantity": 2, "unit": "tbsp"}
+      ],
+      "steps": [
+        {"step_number": 1, "description": "Prepare batter."},
+        {"step_number": 2, "description": "Cook 25 minutes."}
+      ],
+      "media": {
+        "main_image_url": "https://media.istockphoto.com/id/1370520449/photo/slice-of-chocolate-cake-with-glaze.jpg?s=612x612&w=0&k=20&c=KK-h7w4l0FNA0YMWvkr1X8UrAAB77z0f5tTByBYgReM="
+      },
+      "nutrition": {"calories": 350, "protein_g": 6, "carbs_g": 45, "fat_g": 18},
+      "author": {"name": "Admin"},
+      "rating": {"average": 4.8, "reviews_count": 110},
+      "created_at": "2026-03-23T10:00:00Z"
+    }
+  ]
+}
