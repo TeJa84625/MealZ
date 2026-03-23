@@ -1,0 +1,47 @@
+{
+  "version": "1.0",
+  "last_updated": "2026-03-23T10:00:00Z",
+  "sections": [
+    {
+      "section_id": "sec_001",
+      "title": "Today's Special",
+      "type": "manual",
+      "layout": "horizontal_scroll",
+      "recipe_ids": ["AFR003", "AFR004", "AFR010", "AFR011"],
+      "meta": {
+        "icon": "🔥",
+        "priority": 1
+      }
+    },
+    {
+      "section_id": "sec_002",
+      "title": "Top Recommended",
+      "type": "dynamic",
+      "layout": "horizontal_scroll",
+      "filters": {
+        "min_rating": 4.5,
+        "limit": 5,
+        "sort_by": "rating"
+      },
+      "meta": {
+        "icon": "✨",
+        "priority": 2
+      }
+    },
+    {
+      "section_id": "sec_003",
+      "title": "Newly Added",
+      "type": "dynamic",
+      "layout": "horizontal_scroll",
+      "filters": {
+        "sort_by": "created_at",
+        "order": "desc",
+        "limit": 5
+      },
+      "meta": {
+        "icon": "🎉",
+        "priority": 3
+      }
+    }
+  ]
+}
