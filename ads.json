@@ -1,0 +1,142 @@
+{
+  "ads": [
+    {
+      "adId": "ad_001",
+      "imageonly": true,
+      "imagetext": "top-left,15",
+      "imagedescription": "bottom-center,10",
+      "title": "Best Air Fryer Oil",
+      "description": "Perfect for crispy snacks with less fat",
+      "imageUrl": "https://cdn.pixabay.com/photo/2021/01/09/12/41/sesame-oil-5902223_1280.jpg",
+      "clickUrl": "https://example.com/oil",
+      "cta": "Buy Now",
+      "startDate": "2026-03-20T00:00:00Z",
+      "endDate": "2026-04-30T23:59:59Z",
+      "isActive": true,
+      "priority": 1,
+      "placement": "recipe_page_top",
+      "targeting": {
+        "matchType": "or",
+        "location": {
+          "countries": ["IN"],
+          "states": ["AP"],
+          "cities": ["Vijayawada"]
+        },
+        "recipe": {
+          "diet": ["veg"],
+          "tags": ["snack", "kids"],
+          "ingredients": ["Oil", "Potatoes"],
+          "device": {
+            "type": ["airfryer"],
+            "brands": ["Philips"]
+          },
+          "nutrition": {
+            "max_calories": 300,
+            "max_fat_g": 10
+          },
+          "rating": {
+            "min_average": 4.0
+          },
+          "author": {
+            "names": ["Admin"]
+          }
+        }
+      },
+      "tracking": {
+        "impressionUrl": "https://tracker.com/imp/ad_001",
+        "clickTrackerUrl": "https://tracker.com/click/ad_001"
+      }
+    },
+    {
+      "adId": "ad_002",
+      "imageonly": true,
+      "title": "Fresh Green Beans",
+      "description": "Healthy vegetables for your recipes",
+      "imageUrl": "https://cdn.pixabay.com/photo/2021/09/26/09/54/beans-6656979_1280.jpg",
+      "clickUrl": "https://example.com/beans",
+      "cta": "Buy Now",
+      "startDate": "2026-03-20T00:00:00Z",
+      "endDate": "2026-05-01T23:59:59Z",
+      "isActive": true,
+      "priority": 1,
+      "placement": "recipe_page_bottom",
+      "targeting": {
+        "matchType": "or",
+        "recipe": {
+          "recipe_id": "AFR003",
+          "diet": ["veg"],
+          "tags": ["healthy", "veggie"]
+        }
+      },
+      "tracking": {
+        "impressionUrl": "https://tracker.com/imp/ad_002",
+        "clickTrackerUrl": "https://tracker.com/click/ad_002"
+      }
+    },
+    {
+      "adId": "ad_003",
+      "imageonly": true,
+      "title": "Fresh Farm Eggs",
+      "description": "High-quality eggs for non-veg recipes",
+      "imageUrl": "https://cdn.pixabay.com/photo/2022/09/25/17/26/eggs-7478859_1280.jpg",
+      "clickUrl": "https://example.com/eggs",
+      "cta": "Buy Now",
+      "startDate": "2026-03-20T00:00:00Z",
+      "endDate": "2026-05-15T23:59:59Z",
+      "isActive": true,
+      "priority": 1,
+      "placement": "recipe_page_top",
+      "targeting": {
+        "matchType": "or",
+        "location": {
+          "countries": ["IN"]
+        },
+        "recipe": {
+          "diet": ["nonveg"],
+          "tags": ["breakfast", "protein", "eggs"],
+          "ingredients": ["Eggs"],
+          "device": {
+            "type": ["airfryer", "oven"]
+          },
+          "nutrition": {
+            "min_protein": 15
+          },
+          "rating": {
+            "min_average": 3.5
+          }
+        }
+      },
+      "tracking": {
+        "impressionUrl": "https://tracker.com/imp/ad_003",
+        "clickTrackerUrl": "https://tracker.com/click/ad_003"
+      }
+    },
+    {
+      "adId": "ad_004",
+      "imageonly": false,
+      "title": "Upgrade Your Air Fryer",
+      "description": "Latest high-performance air fryers",
+      "imageUrl": "https://cdn.pixabay.com/photo/2021/10/15/11/05/pizza-6712121_1280.jpg",
+      "clickUrl": "https://example.com/airfryer",
+      "cta": "View Products",
+      "startDate": "2026-03-20T00:00:00Z",
+      "endDate": "2026-05-01T23:59:59Z",
+      "isActive": true,
+      "priority": 1,
+      "placement": "profile_page",
+      "tracking": {
+        "impressionUrl": "https://tracker.com/imp/ad_004",
+        "clickTrackerUrl": "https://tracker.com/click/ad_004"
+      }
+    }
+  ],
+  "fallback": {
+    "type": "google_ads",
+    "enabled": true,
+    "adClientId": "ca-pub-XXXXXXXXXXXXXXXX",
+    "adSlots": {
+      "recipe_page_top": "1234567890",
+      "recipe_page_bottom": "9876543210"
+    }
+  }
+}
