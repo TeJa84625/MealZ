@@ -1,0 +1,64 @@
+{
+    "version": "1.0",
+    "countries": [
+    {
+        "country": "India",
+        "country_code": "IN",
+        "states": [
+        {"state": "Andhra Pradesh", "state_code": "AP", "cities": ["Vijayawada","Visakhapatnam","Guntur","Tirupati","Rajahmundry"]},
+        {"state": "Arunachal Pradesh", "state_code": "AR", "cities": ["Itanagar","Tawang","Pasighat","Ziro","Roing"]},
+        {"state": "Assam", "state_code": "AS", "cities": ["Guwahati","Silchar","Dibrugarh","Jorhat","Tezpur"]},
+        {"state": "Bihar", "state_code": "BR", "cities": ["Patna","Gaya","Bhagalpur","Muzaffarpur","Purnia"]},
+        {"state": "Chhattisgarh", "state_code": "CG", "cities": ["Raipur","Bilaspur","Durg","Korba","Raigarh"]},
+        {"state": "Goa", "state_code": "GA", "cities": ["Panaji","Margao","Vasco da Gama","Mapusa","Ponda"]},
+        {"state": "Gujarat", "state_code": "GJ", "cities": ["Ahmedabad","Surat","Vadodara","Rajkot","Bhavnagar"]},
+        {"state": "Haryana", "state_code": "HR", "cities": ["Chandigarh","Gurgaon","Faridabad","Panipat","Ambala"]},
+        {"state": "Himachal Pradesh", "state_code": "HP", "cities": ["Shimla","Manali","Dharamshala","Kullu","Solan"]},
+        {"state": "Jharkhand", "state_code": "JH", "cities": ["Ranchi","Jamshedpur","Dhanbad","Bokaro","Deoghar"]},
+        {"state": "Karnataka", "state_code": "KA", "cities": ["Bengaluru","Mysuru","Mangaluru","Hubballi","Belagavi"]},
+        {"state": "Kerala", "state_code": "KL", "cities": ["Thiruvananthapuram","Kochi","Kozhikode","Thrissur","Alappuzha"]},
+        {"state": "Madhya Pradesh", "state_code": "MP", "cities": ["Bhopal","Indore","Gwalior","Jabalpur","Ujjain"]},
+        {"state": "Maharashtra", "state_code": "MH", "cities": ["Mumbai","Pune","Nagpur","Nashik","Aurangabad"]},
+        {"state": "Manipur", "state_code": "MN", "cities": ["Imphal","Thoubal","Churachandpur","Kakching","Senapati"]},
+        {"state": "Meghalaya", "state_code": "ML", "cities": ["Shillong","Tura","Nongpoh","Nongstoin","Williamnagar"]},
+        {"state": "Mizoram", "state_code": "MZ", "cities": ["Aizawl","Lunglei","Serchhip","Champhai","Kolasib"]},
+        {"state": "Nagaland", "state_code": "NL", "cities": ["Kohima","Dimapur","Mokokchung","Wokha","Tuensang"]},
+        {"state": "Odisha", "state_code": "OR", "cities": ["Bhubaneswar","Cuttack","Rourkela","Berhampur","Sambalpur"]},
+        {"state": "Punjab", "state_code": "PB", "cities": ["Amritsar","Ludhiana","Jalandhar","Patiala","Bathinda"]},
+        {"state": "Rajasthan", "state_code": "RJ", "cities": ["Jaipur","Udaipur","Jodhpur","Kota","Bikaner"]},
+        {"state": "Sikkim", "state_code": "SK", "cities": ["Gangtok","Namchi","Gyalshing","Mangan","Jorethang"]},
+        {"state": "Tamil Nadu", "state_code": "TN", "cities": ["Chennai","Coimbatore","Madurai","Tiruchirappalli","Salem"]},
+        {"state": "Telangana", "state_code": "TS", "cities": ["Hyderabad","Warangal","Nizamabad","Karimnagar","Khammam"]},
+        {"state": "Tripura", "state_code": "TR", "cities": ["Agartala","Udaipur","Dharmanagar","Kailashahar","Belonia"]},
+        {"state": "Uttar Pradesh", "state_code": "UP", "cities": ["Lucknow","Kanpur","Varanasi","Noida","Agra"]},
+        {"state": "Uttarakhand", "state_code": "UT", "cities": ["Dehradun","Haridwar","Nainital","Rishikesh","Haldwani"]},
+        {"state": "West Bengal", "state_code": "WB", "cities": ["Kolkata","Howrah","Durgapur","Siliguri","Asansol"]}
+        ]
+    },
+    {
+        "country": "United States",
+        "country_code": "US",
+        "states": [
+        {"state": "California", "state_code": "CA", "cities": ["Los Angeles","San Francisco","San Diego","Sacramento","San Jose"]},
+        {"state": "Texas", "state_code": "TX", "cities": ["Houston","Dallas","Austin","San Antonio","Fort Worth"]},
+        {"state": "New York", "state_code": "NY", "cities": ["New York City","Buffalo","Rochester","Albany","Syracuse"]}
+        ]
+    },
+    {
+        "country": "United Kingdom",
+        "country_code": "GB",
+        "states": [
+        {"state": "England", "state_code": "ENG", "cities": ["London","Manchester","Birmingham","Liverpool","Leeds"]},
+        {"state": "Scotland", "state_code": "SCT", "cities": ["Edinburgh","Glasgow","Aberdeen","Dundee","Inverness"]}
+        ]
+    },
+    {
+        "country": "Australia",
+        "country_code": "AU",
+        "states": [
+        {"state": "New South Wales", "state_code": "NSW", "cities": ["Sydney","Newcastle","Wollongong","Albury","Dubbo"]},
+        {"state": "Victoria", "state_code": "VIC", "cities": ["Melbourne","Geelong","Ballarat","Bendigo","Shepparton"]}
+        ]
+    }
+    ]
+}
