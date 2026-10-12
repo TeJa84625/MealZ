@@ -2,137 +2,138 @@
   "version": "1.2",
   "last_updated": "2026-03-23T13:30:00Z",
   "sections": [
-
     {
       "section_id": "sec_001",
-      "title": "Today's Special",
+      "title": "Featured Today",
       "type": "manual",
       "layout": "carousel_banner",
-      "recipe_ids": ["AFR003", "AFR004", "AFR010", "AFR015", "AFR021"],
+      "recipe_ids": [
+        "AFR003",
+        "AFR004",
+        "AFR010",
+        "AFR013",
+        "AFR015"
+      ],
       "meta": {
-        "icon": "🔥",
         "priority": 1
       }
     },
-
     {
       "section_id": "sec_002",
-      "title": "Best of Philips Air Fryer",
+      "title": "Air Fryer Essentials",
       "type": "dynamic",
       "layout": "horizontal_scroll",
       "filters": {
-        "air_fryer.brand": "Philips",
+        "device.name": "Philips HD9252",
         "limit": 5
       },
       "meta": {
-        "icon": "💨",
         "priority": 2
       }
     },
-
     {
       "section_id": "sec_003",
-      "title": "Quick Snacks",
+      "title": "Quick Bites",
       "type": "dynamic",
       "layout": "horizontal_scroll",
       "filters": {
-        "tags": ["snack", "quick"],
+        "tags": [
+          "snack",
+          "quick"
+        ],
         "sort_by": "rating.average",
         "order": "desc",
         "limit": 5
       },
       "meta": {
-        "icon": "🍟",
         "priority": 3
       }
     },
-
     {
       "section_id": "sec_004",
-      "title": "Non-Veg by Chef Teja",
+      "title": "Premium Non-Vegetarian",
       "type": "dynamic",
       "layout": "horizontal_scroll",
       "filters": {
         "diet": "non-veg",
-        "author.name": "Teja",
+        "sort_by": "rating.average",
+        "order": "desc",
         "limit": 5
       },
       "meta": {
-        "icon": "🍗",
         "priority": 4
       }
     },
-
     {
       "section_id": "sec_005",
-      "title": "GYW - Low Calorie Meals",
+      "title": "Low Calorie Options",
       "type": "dynamic",
       "layout": "grid",
       "filters": {
-        "nutrition.calories": { "lte": 250 },
+        "nutrition.calories": {
+          "lte": 250
+        },
         "sort_by": "nutrition.calories",
         "order": "asc",
         "limit": 6
       },
       "meta": {
-        "icon": "🥗",
         "priority": 5
       }
     },
-
     {
       "section_id": "sec_006",
-      "title": "High Protein Meals",
+      "title": "High Protein Dishes",
       "type": "dynamic",
       "layout": "grid",
       "filters": {
-        "nutrition.protein_g": { "gte": 20 },
+        "nutrition.protein_g": {
+          "gte": 20
+        },
         "sort_by": "nutrition.protein_g",
         "order": "desc",
         "limit": 6
       },
       "meta": {
-        "icon": "💪",
         "priority": 6
       }
     },
-
     {
       "section_id": "sec_007",
-      "title": "Quick 20-Min Recipes",
+      "title": "Under 20 Minutes",
       "type": "dynamic",
       "layout": "horizontal_scroll",
       "filters": {
-        "timing.total_time_minutes": { "lte": 20 },
-        "difficulty_score": { "lte": 2 },
+        "timing.total_time_minutes": {
+          "lte": 20
+        },
+        "level": "Easy",
         "limit": 5
       },
       "meta": {
-        "icon": "⚡",
         "priority": 7
       }
     },
-
     {
       "section_id": "sec_008",
-      "title": "Top Rated",
+      "title": "Highest Rated",
       "type": "dynamic",
       "layout": "horizontal_scroll",
       "filters": {
-        "rating.average": { "gte": 4.5 },
+        "rating.average": {
+          "gte": 4.5
+        },
         "sort_by": "rating.average",
         "order": "desc",
         "limit": 5
       },
       "meta": {
-        "icon": "⭐",
         "priority": 8
       }
     },
-
     {
       "section_id": "sec_009",
-      "title": "Veg Only",
+      "title": "Vegetarian Selections",
       "type": "dynamic",
       "layout": "horizontal_scroll",
       "filters": {
@@ -140,14 +141,12 @@
         "limit": 5
       },
       "meta": {
-        "icon": "🌱",
         "priority": 9
       }
     },
-
     {
       "section_id": "sec_010",
-      "title": "Non-Veg Specials",
+      "title": "Meat & Seafood",
       "type": "dynamic",
       "layout": "horizontal_scroll",
       "filters": {
@@ -155,84 +154,87 @@
         "limit": 5
       },
       "meta": {
-        "icon": "🍖",
         "priority": 10
       }
     },
-
     {
       "section_id": "sec_011",
-      "title": "Indian Favorites",
-      "type": "dynamic",
+      "title": "Indian Cuisine",
+      "type": "manual",
       "layout": "grid",
-      "filters": {
-        "cuisine": "Indian",
-        "limit": 6
-      },
+      "recipe_ids": [
+        "AFR003",
+        "AFR004",
+        "AFR012",
+        "AFR013",
+        "AFR014",
+        "AFR018"
+      ],
       "meta": {
-        "icon": "🇮🇳",
         "priority": 11
       }
     },
-
     {
       "section_id": "sec_012",
-      "title": "Healthy Veg",
+      "title": "Healthy Vegetarian",
       "type": "dynamic",
       "layout": "grid",
       "filters": {
         "diet": "veg",
-        "nutrition.calories": { "lte": 300 },
+        "nutrition.calories": {
+          "lte": 300
+        },
         "limit": 6
       },
       "meta": {
-        "icon": "🥦",
         "priority": 12
       }
     },
-
     {
       "section_id": "sec_013",
-      "title": "Snack Attack",
+      "title": "Snacks & Appetizers",
       "type": "dynamic",
       "layout": "horizontal_scroll",
       "filters": {
-        "tags": ["snack"],
+        "tags": [
+          "snack",
+          "starter"
+        ],
         "limit": 5
       },
       "meta": {
-        "icon": "🍿",
         "priority": 13
       }
     },
-
     {
       "section_id": "sec_014",
-      "title": "Latest Recipes",
+      "title": "Newest Arrivals",
       "type": "dynamic",
       "layout": "vertical_list",
       "filters": {
-        "sort_by": "recipe_id",
+        "sort_by": "created_at",
         "order": "desc",
         "limit": 10
       },
       "meta": {
-        "icon": "🆕",
         "priority": 14
       }
     },
-
     {
       "section_id": "sec_015",
-      "title": "Chef's Picks",
+      "title": "Curated Collection",
       "type": "manual",
       "layout": "grid",
-      "recipe_ids": ["AFR001", "AFR007", "AFR015", "AFR020", "AFR025"],
+      "recipe_ids": [
+        "AFR001",
+        "AFR007",
+        "AFR008",
+        "AFR019",
+        "AFR020"
+      ],
       "meta": {
-        "icon": "👨‍🍳",
         "priority": 15
       }
     }
-
   ]
 }
